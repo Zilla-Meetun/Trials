@@ -1,6 +1,11 @@
 {
 	"SourceFiles": [
 		"K:\\Mastered\\Trialed\\Trials\\Source\\Trials\\Trials.Build.cs",
+		"K:\\Mastered\\Trialed\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"K:\\Mastered\\Trialed\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\RiderBlueprintExtension.Build.cs",
+		"K:\\Mastered\\Trialed\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\RiderGameControlExtension.Build.cs",
+		"K:\\Mastered\\Trialed\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"K:\\Mastered\\Trialed\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\RiderLoggingExtension.Build.cs",
 		"K:\\Mastered\\Trialed\\Trials\\Source\\Trials.Target.cs",
 		"K:\\Mastered\\Trialed\\Trials\\Source\\TrialsEditor.Target.cs"
 	],
