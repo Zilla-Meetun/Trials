@@ -135,12 +135,12 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\vcruntime_startup.h
+K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
 K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
 K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/cfg/log_levels.h
 K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/thread_pool.h
 K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/mpmc_blocking_q.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\condition_variable
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
 K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/async_logger-inl.h
 K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/sinks/sink.h
 K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/formatter.h

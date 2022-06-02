@@ -61,11 +61,8 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h"
-/Yu"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h"
-/Fp"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h.pch"
 "K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Module.RiderLink.cpp"
-/FI"K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Definitions.RiderLink.h"
+/FI"K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Definitions.h"
 /Fo"K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Module.RiderLink.cpp.obj"
 /TP
 /GR

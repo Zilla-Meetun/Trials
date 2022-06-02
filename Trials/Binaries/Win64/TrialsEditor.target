@@ -44,27 +44,35 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension.dll",
+			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLogging.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension.pdb",
+			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLogging.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension.dll",
+			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprint.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension.pdb",
+			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprint.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension.dll",
+			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControl.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension.pdb",
+			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControl.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderShaderInfoDump.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderShaderInfoDump.pdb",
 			"Type": "SymbolFile"
 		},
 		{
