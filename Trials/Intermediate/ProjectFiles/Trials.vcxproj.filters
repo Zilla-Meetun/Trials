@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Trials.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5B3A925B-7A61-40D4-8134-C962098D86FB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Trials.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TrialsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D27E119C-D289-4840-B594-E2936620EC09}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Trials">
+      <UniqueIdentifier>{FEA14BD6-487B-433A-9A7E-76A4EB110C70}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Trials\Trials.Build.cs">
+      <Filter>Source\Trials</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Trials\Trials.cpp">
+      <Filter>Source\Trials</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Trials\Trials.h">
+      <Filter>Source\Trials</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Trials\TrialsGameModeBase.cpp">
+      <Filter>Source\Trials</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Trials\TrialsGameModeBase.h">
+      <Filter>Source\Trials</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
