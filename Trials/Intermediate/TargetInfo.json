@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Trials",
-			"Path": "K:\\Mastered\\Trialed\\Trials\\Source\\Trials.Target.cs",
+			"Path": "K:\\Mastered\\Trials\\Trials\\Source\\Trials.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TrialsEditor",
-			"Path": "K:\\Mastered\\Trialed\\Trials\\Source\\TrialsEditor.Target.cs",
+			"Path": "K:\\Mastered\\Trials\\Trials\\Source\\TrialsEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

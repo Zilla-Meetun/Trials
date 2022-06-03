@@ -40,6 +40,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float Spacing = 120;
 
+	UPROPERTY()
+	ATilePiece* Tile;
 	UPROPERTY(VisibleAnywhere)
-	TArray<UTilePiece*> Grid;
+	TArray<ATilePiece*> Grid;
 };

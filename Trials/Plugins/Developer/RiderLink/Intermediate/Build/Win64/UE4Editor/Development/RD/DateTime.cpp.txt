@@ -1,6 +1,6 @@
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\DateTime.h
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types\DateTime.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\functional
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\yvals_core.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\vcruntime.h
@@ -89,7 +89,7 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\string
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cctype
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\ctype.h
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\sstream
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\istream
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ostream

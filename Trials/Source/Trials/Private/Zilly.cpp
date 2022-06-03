@@ -71,6 +71,7 @@ void AZilly::AttackStart()
 	RightFistCollider->SetCollisionProfileName(FName("Weapon"));
 	LeftFistCollider->SetNotifyRigidBodyCollision(true);
 	RightFistCollider->SetNotifyRigidBodyCollision(true);
+	
 }
 
 void AZilly::AttackEnd()
@@ -138,6 +139,7 @@ void AZilly::TurnAtRate(float Rate)
 void AZilly::LookUpRate(float Rate)
 {
 	AddControllerPitchInput(Rate*BaseLookUpRate*GetWorld()->GetDeltaSeconds());
+	
 }
 
 // Called every frame

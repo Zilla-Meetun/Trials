@@ -1,2 +1,2 @@
-K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
-K:\Mastered\Trialed\Trials\Source\Trials\Trials.h
+K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
+K:\Mastered\Trials\Trials\Source\Trials\Trials.h

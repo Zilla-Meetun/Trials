@@ -29,44 +29,44 @@ struct FHitResult;
 
 #define Trials_Source_Trials_Public_TilePiece_h_12_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesUTilePiece(); \
-	friend struct Z_Construct_UClass_UTilePiece_Statics; \
+	static void StaticRegisterNativesATilePiece(); \
+	friend struct Z_Construct_UClass_ATilePiece_Statics; \
 public: \
-	DECLARE_CLASS(UTilePiece, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Trials"), NO_API) \
-	DECLARE_SERIALIZER(UTilePiece)
+	DECLARE_CLASS(ATilePiece, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Trials"), NO_API) \
+	DECLARE_SERIALIZER(ATilePiece)
 
 
 #define Trials_Source_Trials_Public_TilePiece_h_12_INCLASS \
 private: \
-	static void StaticRegisterNativesUTilePiece(); \
-	friend struct Z_Construct_UClass_UTilePiece_Statics; \
+	static void StaticRegisterNativesATilePiece(); \
+	friend struct Z_Construct_UClass_ATilePiece_Statics; \
 public: \
-	DECLARE_CLASS(UTilePiece, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Trials"), NO_API) \
-	DECLARE_SERIALIZER(UTilePiece)
+	DECLARE_CLASS(ATilePiece, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Trials"), NO_API) \
+	DECLARE_SERIALIZER(ATilePiece)
 
 
 #define Trials_Source_Trials_Public_TilePiece_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UTilePiece(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTilePiece) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTilePiece); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTilePiece); \
+	NO_API ATilePiece(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATilePiece) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATilePiece); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATilePiece); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UTilePiece(UTilePiece&&); \
-	NO_API UTilePiece(const UTilePiece&); \
+	NO_API ATilePiece(ATilePiece&&); \
+	NO_API ATilePiece(const ATilePiece&); \
 public:
 
 
 #define Trials_Source_Trials_Public_TilePiece_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UTilePiece(UTilePiece&&); \
-	NO_API UTilePiece(const UTilePiece&); \
+	NO_API ATilePiece(ATilePiece&&); \
+	NO_API ATilePiece(const ATilePiece&); \
 public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTilePiece); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTilePiece); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTilePiece)
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATilePiece); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATilePiece); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATilePiece)
 
 
 #define Trials_Source_Trials_Public_TilePiece_h_12_PRIVATE_PROPERTY_OFFSET
@@ -95,7 +95,7 @@ private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-template<> TRIALS_API UClass* StaticClass<class UTilePiece>();
+template<> TRIALS_API UClass* StaticClass<class ATilePiece>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID Trials_Source_Trials_Public_TilePiece_h

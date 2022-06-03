@@ -6,12 +6,12 @@
 #include "Components/BoxComponent.h"
 
 // Sets default values
-UTilePiece::UTilePiece()
+ATilePiece::ATilePiece()
 {
 	AdjacentIndex.Empty();
 	
 	TileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	TileMesh->AddToRoot();
+	RootComponent = TileMesh;
 
 	TileCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("Collision"));
 	TileCollision->SetupAttachment(TileMesh);
@@ -23,7 +23,7 @@ UTilePiece::UTilePiece()
 		TileMesh->SetRelativeScale3D(FVector(1.0f,1.0f,0.2f));
 	}
 
-	static ConstructorHelpers::FObjectFinder<UMaterialInstance>FoundMat(TEXT("MaterialInstanceConstant'/Game/Materials/TileMaterial_Inst.TileMaterial_Inst'"));
+	static ConstructorHelpers::FObjectFinder<UMaterialInstance>FoundMat(TEXT("MaterialInstanceConstant'/Game/Materials/TIleMaterial_Inst.TIleMaterial_Inst'"));
 	
 	if(FoundMat.Succeeded())
 	{
@@ -36,11 +36,14 @@ UTilePiece::UTilePiece()
 	TileCollision->SetRelativeLocation(FVector(0.0f, 0.0f, 22.0f));
 }
 
+void ATilePiece::BeginPlay()
+{
+	Super::BeginPlay();
+}
 
 
-
-void UTilePiece::OnTileOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
-	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+void ATilePiece::OnTileOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
+                               int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	
 }

@@ -1,6 +1,6 @@
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\ActiveSocket.h
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\ActiveSocket.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\sys/stat.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\vcruntime.h
@@ -144,11 +144,11 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\qos.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\Ws2tcpip.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ws2ipdef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\in6addr.h
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\Host.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\Host.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cstdint
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\yvals_core.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xkeycheck.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\stdint.h
-K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\StatTimer.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\StatTimer.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wtime.h

@@ -32,7 +32,7 @@
 /wd4244
 /wd4838
 /I .
-/I K:\Mastered\Trialed\Trials\Source\Trials\Private
+/I K:\Mastered\Trials\Trials\Source\Trials\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -232,9 +232,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials
-/I K:\Mastered\Trialed\Trials\Source
-/I K:\Mastered\Trialed\Trials\Source\Trials\Public
+/I K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials
+/I K:\Mastered\Trials\Trials\Source
+/I K:\Mastered\Trials\Trials\Source\Trials\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -264,12 +264,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"K:\Mastered\Trialed\Trials\Source\Trials\TrialsGameModeBase.cpp"
-/FI"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h"
-/Fo"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TrialsGameModeBase.cpp.obj"
+/FI"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"K:\Mastered\Trials\Trials\Source\Trials\TrialsGameModeBase.cpp"
+/FI"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h"
+/Fo"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TrialsGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4

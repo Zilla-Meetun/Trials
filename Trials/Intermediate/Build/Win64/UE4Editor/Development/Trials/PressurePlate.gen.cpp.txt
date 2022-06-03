@@ -1,0 +1,5 @@
+K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+K:\Mastered\Trials\Trials\Source\Trials/Public/PressurePlate.h
+K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\PressurePlate.generated.h

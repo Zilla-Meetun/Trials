@@ -32,22 +32,22 @@
 /wd4244
 /wd4838
 /I .
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src
-/I K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL\include
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src
+/I K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\CTPL\include
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -57,9 +57,9 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-"K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\countdownlatch.cpp"
-/FI"K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h"
-/Fo"K:\Mastered\Trialed\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\countdownlatch.cpp.obj"
+"K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\countdownlatch\countdownlatch.cpp"
+/FI"K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h"
+/Fo"K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\countdownlatch.cpp.obj"
 /TP
 /GR
 /W4

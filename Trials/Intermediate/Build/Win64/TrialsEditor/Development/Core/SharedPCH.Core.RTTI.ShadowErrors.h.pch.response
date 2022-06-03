@@ -41,11 +41,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/I K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core
-/Yc"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h"
-/Fp"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h.pch"
-"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.cpp"
-/Fo"K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h.obj"
+/I K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core
+/Yc"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h"
+/Fp"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h.pch"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.cpp"
+/Fo"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h.obj"
 /TP
 /GR
 /W4

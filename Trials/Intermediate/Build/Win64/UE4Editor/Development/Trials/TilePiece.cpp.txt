@@ -1,6 +1,6 @@
-K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
-K:\Mastered\Trialed\Trials\Source\Trials\Public\TilePiece.h
-K:\Mastered\Trialed\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePiece.generated.h
+K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
+K:\Mastered\Trials\Trials\Source\Trials\Public\TilePiece.h
+K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePiece.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h

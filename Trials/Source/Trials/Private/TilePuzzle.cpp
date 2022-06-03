@@ -12,6 +12,7 @@
 ATilePuzzle::ATilePuzzle()
 {
 	NewRoot = CreateDefaultSubobject<USceneComponent>(TEXT("NewRoot"));
+	RootComponent = NewRoot;
 }
 
 // Called when the game starts or when spawned
@@ -27,11 +28,12 @@ void ATilePuzzle::OnConstruction(const FTransform& Transform)
 
 	
 	RegisterAllComponents();
+
+	//Tile =  ConstructorHelpers::FObjectFinder<ATilePiece>(TEXT("")).Object;
+	//ATilePiece* Piece = NewObject<UTilePiece>(this, TEXT("NewTile"));
+	//Piece->RegisterComponent();
 	
-	UTilePiece* Piece = NewObject<UTilePiece>(this, TEXT("NewTile"));
-	Piece->RegisterComponent();
-	
-	Grid.Add(Piece);
+	//Grid.Add(Piece);
 }
 
 void ATilePuzzle::Tick(float DeltaTime)
