@@ -8,15 +8,32 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef TRIALS_PressurePlate_generated_h
 #error "PressurePlate.generated.h already included, missing '#pragma once' in PressurePlate.h"
 #endif
 #define TRIALS_PressurePlate_generated_h
 
-#define Trials_Source_Trials_Public_PressurePlate_h_12_SPARSE_DATA
-#define Trials_Source_Trials_Public_PressurePlate_h_12_RPC_WRAPPERS
-#define Trials_Source_Trials_Public_PressurePlate_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define Trials_Source_Trials_Public_PressurePlate_h_12_INCLASS_NO_PURE_DECLS \
+#define Trials_Source_Trials_Public_PressurePlate_h_13_SPARSE_DATA
+#define Trials_Source_Trials_Public_PressurePlate_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnPlateEndOverlap); \
+	DECLARE_FUNCTION(execOnPlateOverlap); \
+	DECLARE_FUNCTION(execCalculateMass);
+
+
+#define Trials_Source_Trials_Public_PressurePlate_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnPlateEndOverlap); \
+	DECLARE_FUNCTION(execOnPlateOverlap); \
+	DECLARE_FUNCTION(execCalculateMass);
+
+
+#define Trials_Source_Trials_Public_PressurePlate_h_13_EVENT_PARMS
+#define Trials_Source_Trials_Public_PressurePlate_h_13_CALLBACK_WRAPPERS
+#define Trials_Source_Trials_Public_PressurePlate_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPressurePlate(); \
 	friend struct Z_Construct_UClass_APressurePlate_Statics; \
@@ -25,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(APressurePlate)
 
 
-#define Trials_Source_Trials_Public_PressurePlate_h_12_INCLASS \
+#define Trials_Source_Trials_Public_PressurePlate_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAPressurePlate(); \
 	friend struct Z_Construct_UClass_APressurePlate_Statics; \
@@ -34,7 +51,7 @@ public: \
 	DECLARE_SERIALIZER(APressurePlate)
 
 
-#define Trials_Source_Trials_Public_PressurePlate_h_12_STANDARD_CONSTRUCTORS \
+#define Trials_Source_Trials_Public_PressurePlate_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APressurePlate(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APressurePlate) \
@@ -47,7 +64,7 @@ private: \
 public:
 
 
-#define Trials_Source_Trials_Public_PressurePlate_h_12_ENHANCED_CONSTRUCTORS \
+#define Trials_Source_Trials_Public_PressurePlate_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APressurePlate(APressurePlate&&); \
@@ -58,28 +75,33 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APressurePlate)
 
 
-#define Trials_Source_Trials_Public_PressurePlate_h_12_PRIVATE_PROPERTY_OFFSET
-#define Trials_Source_Trials_Public_PressurePlate_h_9_PROLOG
-#define Trials_Source_Trials_Public_PressurePlate_h_12_GENERATED_BODY_LEGACY \
+#define Trials_Source_Trials_Public_PressurePlate_h_13_PRIVATE_PROPERTY_OFFSET
+#define Trials_Source_Trials_Public_PressurePlate_h_10_PROLOG \
+	Trials_Source_Trials_Public_PressurePlate_h_13_EVENT_PARMS
+
+
+#define Trials_Source_Trials_Public_PressurePlate_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Trials_Source_Trials_Public_PressurePlate_h_12_PRIVATE_PROPERTY_OFFSET \
-	Trials_Source_Trials_Public_PressurePlate_h_12_SPARSE_DATA \
-	Trials_Source_Trials_Public_PressurePlate_h_12_RPC_WRAPPERS \
-	Trials_Source_Trials_Public_PressurePlate_h_12_INCLASS \
-	Trials_Source_Trials_Public_PressurePlate_h_12_STANDARD_CONSTRUCTORS \
+	Trials_Source_Trials_Public_PressurePlate_h_13_PRIVATE_PROPERTY_OFFSET \
+	Trials_Source_Trials_Public_PressurePlate_h_13_SPARSE_DATA \
+	Trials_Source_Trials_Public_PressurePlate_h_13_RPC_WRAPPERS \
+	Trials_Source_Trials_Public_PressurePlate_h_13_CALLBACK_WRAPPERS \
+	Trials_Source_Trials_Public_PressurePlate_h_13_INCLASS \
+	Trials_Source_Trials_Public_PressurePlate_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Trials_Source_Trials_Public_PressurePlate_h_12_GENERATED_BODY \
+#define Trials_Source_Trials_Public_PressurePlate_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Trials_Source_Trials_Public_PressurePlate_h_12_PRIVATE_PROPERTY_OFFSET \
-	Trials_Source_Trials_Public_PressurePlate_h_12_SPARSE_DATA \
-	Trials_Source_Trials_Public_PressurePlate_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Trials_Source_Trials_Public_PressurePlate_h_12_INCLASS_NO_PURE_DECLS \
-	Trials_Source_Trials_Public_PressurePlate_h_12_ENHANCED_CONSTRUCTORS \
+	Trials_Source_Trials_Public_PressurePlate_h_13_PRIVATE_PROPERTY_OFFSET \
+	Trials_Source_Trials_Public_PressurePlate_h_13_SPARSE_DATA \
+	Trials_Source_Trials_Public_PressurePlate_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	Trials_Source_Trials_Public_PressurePlate_h_13_CALLBACK_WRAPPERS \
+	Trials_Source_Trials_Public_PressurePlate_h_13_INCLASS_NO_PURE_DECLS \
+	Trials_Source_Trials_Public_PressurePlate_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

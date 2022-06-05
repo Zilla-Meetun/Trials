@@ -1,13 +1,13 @@
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Definitions.RiderLink.h
-K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Private/UE4TypesMarshallers.cpp
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\functional
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\typeinfo
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\vcruntime_typeinfo.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Private\ProtocolFactory.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Protocol.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\deque
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xmemory
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\limits
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cfloat
@@ -16,76 +16,20 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.3
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\intrin0.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\isa_availability.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xatomic.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ctime
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\string
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xstring
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\iosfwd
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cctype
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\functional
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\typeinfo
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\vcruntime_typeinfo.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\memory
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\thread
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\chrono
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ratio
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xtimec.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\vcruntime_startup.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xthreads.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\sstream
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\istream
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ostream
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ios
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocnum
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cmath
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\iterator
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\streambuf
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xiosbase
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\share.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\system_error
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\__msvc_system_error_abi.hpp
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cerrno
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\stdexcept
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xcall_once.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xerrc.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\atomic
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocale
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xfacet
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocinfo
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\__msvc_xlocinfo_types.hpp
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\clocale
-C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\iosfwd
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\vector
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\future
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\condition_variable
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\mutex
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ppltasks.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\pplwin.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\pplinterface.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ppltaskscheduler.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\crtdefs.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\pplcancellation_token.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\algorithm
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\locale
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocbuf
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocmes
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocmon
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xloctime
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\codecvt
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\deque
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\algorithm
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cmath
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\iterator
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\stdexcept
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xstring
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
@@ -95,6 +39,68 @@ K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\varia
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ostream
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ios
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocnum
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\streambuf
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\share.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\system_error
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\__msvc_system_error_abi.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cerrno
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xcall_once.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xerrc.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\atomic
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xthreads.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xtimec.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ctime
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocale
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xfacet
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocinfo
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\__msvc_xlocinfo_types.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cctype
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\string
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\thread
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\chrono
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ratio
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\vcruntime_startup.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\sstream
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\istream
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\future
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\condition_variable
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\mutex
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ppltasks.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\pplwin.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\pplinterface.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\ppltaskscheduler.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\crtdefs.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\pplcancellation_token.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\locale
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocbuf
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocmes
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocmon
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xloctime
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\codecvt
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
@@ -124,20 +130,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.3
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/Lifetime.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\map
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xtree
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
@@ -148,7 +141,12 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.3
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/Lifetime.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\map
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\xtree
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
@@ -157,16 +155,221 @@ K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\regex
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire/SocketWire.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/WireBase.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/MessageBroker.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\queue
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\ByteBufferAsyncProcessor.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PkgInputStream.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\array
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformFilemanager.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\Windows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\excpt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\windef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\minwindef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\kernelspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\basetsd.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\guiddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ktmtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apisetcconv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\minwinbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\apiquery2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processenv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapifromapp.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\debugapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\utilapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\handleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\errhandlingapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fibersapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namedpipeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\profileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\heapapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ioapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\synchapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\interlockedapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processthreadsapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\sysinfoapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\memoryapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\enclaveapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoollegacyapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoolapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wow64apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\libloaderapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securitybaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namespaceapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\systemtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securityappcontainer.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\realtimeapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\winerror.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\timezoneapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wingdi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winuser.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\tvout.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\datetimeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\stringapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincon.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincontypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi3.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winver.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\verrsrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winreg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\reason.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnetwk.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\wnnc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\stralign.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\imm.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ime_cmodes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime/Launch/Resources/Version.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Private\RiderLink.hpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel/RdEditorModel.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSignal.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdProperty.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdPropertyBase.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdList.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableList.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableList.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSet.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableSet.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableSet.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdMap.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableMap.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableMap.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/ISerializersOwner.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/NullableSerializer.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h
-K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.cpp
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
-K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedSerializer.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext/RdExtBase.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdCall.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SynchronousScheduler.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdEndpoint.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdSymmetricCall.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/enum.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnrealLogEvent.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/LogMessageInfo.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/StringRange.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/BlueprintReference.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UClass.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/PlayState.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/RequestResultBase.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SingleThreadScheduler.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base/SingleThreadSchedulerBase.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UE4Library.Generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ScopeRWLock.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Private/UE4TypesMarshallers.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintFunction.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintHighlighter.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\EmptyScriptCallStack.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack_Unknown.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg_Unknown.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\NotificationType.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestFailed.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestResultBase_Unknown.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestSucceed.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStack.Generated.h
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/ScriptCallStackFrame.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgCallStack.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgException.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnableToDisplayScriptCallStack.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.cpp
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.cpp
+K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot/RdEditorRoot.Generated.h
+K:/Mastered/Trials/Trials/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.cpp

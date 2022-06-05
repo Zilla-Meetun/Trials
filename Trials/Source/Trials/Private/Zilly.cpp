@@ -134,6 +134,7 @@ void AZilly::MoveRight(float Value)
 void AZilly::TurnAtRate(float Rate)
 {
 	AddControllerYawInput(Rate*BaseTurnRate* GetWorld()->GetDeltaSeconds());
+	
 }
 
 void AZilly::LookUpRate(float Rate)

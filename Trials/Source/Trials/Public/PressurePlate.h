@@ -24,24 +24,55 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	UStaticMeshComponent* PlateMesh =nullptr;
 
 	UPROPERTY(EditDefaultsOnly)
 	UBoxComponent* PlateCollision = nullptr;
 
-	UPROPERTY()
-	float Weight; 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float ActivatedWeight = 50;
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly)
+	float TotalMass = 0;
+
+	UPROPERTY(BlueprintReadOnly)
+	TArray<AActor*> OverlappingActors;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	float MaxZOffset = 5;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	float CurrentOffset = 0;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	float NewOffset = 0;
 	
 	UPROPERTY(EditInstanceOnly)
-	AActor* DoorTrigger = nullptr;
+	AActor* TriggerActor = nullptr;
+
+	UPROPERTY(BlueprintReadWrite)
+	bool bIsActive = false;
+	
+	UFUNCTION()
+	void CalculateMass();
 
 	UFUNCTION()
-	void OnPlateOverlap();
+	void OnPlateOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UFUNCTION()
+	void OnPlateEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 	
 	UFUNCTION(BlueprintImplementableEvent)
-	void LowerPlate();
+	void RaisePlate();
 
 	UFUNCTION(BlueprintImplementableEvent)
-	void OpenDoor();
+	void LowerPlate();
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void ActivatePlate();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void DeactivatePlate();
 };
