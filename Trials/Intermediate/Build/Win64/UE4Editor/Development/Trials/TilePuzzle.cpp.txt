@@ -2,18 +2,69 @@ K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\
 K:\Mastered\Trials\Trials\Source\Trials\Public\TilePuzzle.h
 K:\Mastered\Trials\Trials\Source\Trials\Public\TilePiece.h
 K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePiece.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
 K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePuzzle.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\Kismet\Public\SSCSEditor.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Slate\Public\Widgets/Views/STreeView.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Engine/SCS_Node.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Engine/SimpleConstructionScript.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SimpleConstructionScript.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SCS_Node.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\Kismet\Public\BlueprintEditor.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Public\PreviewScene.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\CoreUObject\Public\Misc/NotifyHook.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\TickableEditorObject.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\EditorUndoClient.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\Toolkits/BaseToolkit.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\UnrealEdMisc.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\Editor.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Classes\Editor/EditorEngine.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Classes\Editor/Transactor.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Core\Public\Serialization/ArchiveSerializedPropertyChain.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\Transactor.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditorViewportSettings.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\Viewports.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Classes\Editor/UnrealEdTypes.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UnrealEdTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorViewportSettings.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetPlatform.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetDevice.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Developer\TargetPlatform\Public\Interfaces/TargetDeviceId.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetPlatformManagerModule.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\PlayInEditorDataTypes.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\PlayInEditorDataTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\EditorSubsystem\Public\EditorSubsystem.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem\EditorSubsystem.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\EditorEngine.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\Subsystems/ImportSubsystem.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ImportSubsystem.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\Subsystems/AssetEditorSubsystem.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\Tools/Modes.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AssetEditorSubsystem.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp/WorkflowTabFactory.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp/WorkflowTabManager.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\Kismet\Public\BlueprintEditorModule.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp/WorkflowCentricApplication.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\GraphEditor.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Engine/LevelStreaming.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Public\LatentActions.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LevelStreaming.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Developer/Merge/Public/Merge.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Slate\Public\Widgets/SToolTip.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\SComponentClassCombo.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\UnrealEd\Public\ScopedTransaction.h
 K:\Mastered\Trials\Trials\Source\Trials\Public\Zilly.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\Zilly.generated.h
 K:\Mastered\Trials\Trials\Source\Trials\Private\../../../Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h
@@ -22,7 +73,7 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_io.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winsock2.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\windows.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE\excpt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\excpt.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\windef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\minwindef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h
@@ -231,3 +282,29 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ws2ipdef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\in6addr.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\Host.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\StatTimer.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation/PreAnimatedState/MovieScenePreAnimatedCaptureSources.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation/IMovieSceneEvaluationHook.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequenceID.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceID.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieScenePlayback.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\MovieSceneFwd.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneSequenceTransform.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Core\Public\Algo/AllOf.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation\MovieSceneTimeTransform.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTimeTransform.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation\MovieSceneTimeWarping.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTimeWarping.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceTransform.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\IMovieSceneEvaluationHook.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneEvaluationKey.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneTrackIdentifier.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackIdentifier.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationKey.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation/PreAnimatedState/MovieScenePreAnimatedStateTypes.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\EntitySystem/MovieSceneSequenceInstanceHandle.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\EntitySystem/MovieSceneComponentDebug.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\EntitySystem/MovieSceneEntitySystemTypes.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\EntitySystem/MovieSceneEntityIDs.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation/PreAnimatedState/MovieScenePreAnimatedStorageID.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\MovieScene\Public\Evaluation/PreAnimatedState/IMovieScenePreAnimatedCaptureSource.h

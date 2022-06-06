@@ -3,16 +3,20 @@
 
 #include "TilePuzzle.h"
 
+#include "SSCSEditor.h"
 #include "TilePiece.h"
 
 #include "Zilly.h"
 #include "../../../Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h"
+#include "Evaluation/PreAnimatedState/MovieScenePreAnimatedCaptureSources.h"
 
 // Sets default values
 ATilePuzzle::ATilePuzzle()
 {
-	NewRoot = CreateDefaultSubobject<USceneComponent>(TEXT("NewRoot"));
-	RootComponent = NewRoot;
+	RootMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("NewRoot"));
+	RootComponent = RootMesh;
+
+	
 }
 
 // Called when the game starts or when spawned
@@ -26,14 +30,21 @@ void ATilePuzzle::OnConstruction(const FTransform& Transform)
 {
 	Super::OnConstruction(Transform);
 
+	Grid.Empty();
 	
-	RegisterAllComponents();
+	ATilePiece* Piece =  NewObject<ATilePiece>(ATilePiece::StaticClass(),TEXT("Tile"));
 
-	//Tile =  ConstructorHelpers::FObjectFinder<ATilePiece>(TEXT("")).Object;
-	//ATilePiece* Piece = NewObject<UTilePiece>(this, TEXT("NewTile"));
-	//Piece->RegisterComponent();
 	
-	//Grid.Add(Piece);
+	
+	Piece->RegisterAllComponents();
+	for ( UActorComponent* const Comp :Piece->GetComponents())
+	{
+		Comp->AddToRoot();
+		
+	}
+	
+	Grid.Add(Piece);
+	
 }
 
 void ATilePuzzle::Tick(float DeltaTime)

@@ -8,7 +8,7 @@
 #include "GameFramework/Actor.h"
 #include "TilePuzzle.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable, BlueprintType)
 class TRIALS_API ATilePuzzle : public AActor
 {
 	GENERATED_BODY()
@@ -23,13 +23,12 @@ protected:
 
 	virtual void OnConstruction(const FTransform& Transform) override;
 	
-	
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY()
-	USceneComponent* NewRoot;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UStaticMeshComponent* RootMesh;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int XLength = 3;
@@ -40,8 +39,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float Spacing = 120;
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 	ATilePiece* Tile;
-	UPROPERTY(VisibleAnywhere)
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	TArray<ATilePiece*> Grid;
 };

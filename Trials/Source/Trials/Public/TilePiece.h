@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "TilePiece.generated.h"
 
-UCLASS(Blueprintable, BlueprintType)
+UCLASS(BlueprintType, PerObjectConfig, Blueprintable)
 class TRIALS_API ATilePiece : public AActor
 {
 	GENERATED_BODY()

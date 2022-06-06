@@ -39,6 +39,8 @@ ATilePiece::ATilePiece()
 void ATilePiece::BeginPlay()
 {
 	Super::BeginPlay();
+
+	TileCollision->OnComponentBeginOverlap.AddDynamic(this, &ATilePiece::OnTileOverlap);
 }
 
 

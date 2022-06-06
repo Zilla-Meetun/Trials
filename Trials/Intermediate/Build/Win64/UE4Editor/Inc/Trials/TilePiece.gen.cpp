@@ -247,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::PropPointers),
 		0,
-		0x009000A4u,
+		0x009004A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ATilePiece_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ATilePiece()
@@ -259,7 +259,7 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATilePiece, 114907358);
+	IMPLEMENT_CLASS(ATilePiece, 2329909612);
 	template<> TRIALS_API UClass* StaticClass<ATilePiece>()
 	{
 		return ATilePiece::StaticClass();

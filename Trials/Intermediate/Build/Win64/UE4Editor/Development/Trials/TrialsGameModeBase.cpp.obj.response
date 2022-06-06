@@ -103,7 +103,6 @@
 /I Runtime\Experimental\ChaosCore\Public
 /I ThirdParty\Intel
 /I Runtime\Experimental\Voronoi\Public
-/I ThirdParty
 /I Runtime\SignalProcessing\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioExtensions
 /I Runtime\AudioExtensions\Public
@@ -183,6 +182,7 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowserData
 /I Editor\ContentBrowserData\Public
 /I Developer\CollectionManager\Public
+/I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I Runtime\NetworkFileSystem\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UMG
@@ -199,6 +199,13 @@
 /I Runtime\PropertyPath\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem
 /I Runtime\NavigationSystem\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionEngine
+/I Runtime\Experimental\GeometryCollectionEngine\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemEngine
+/I Runtime\Experimental\FieldSystem\Source
+/I Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolverEngine
+/I Runtime\Experimental\ChaosSolverEngine\Public
 /I Developer\MeshBuilder\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MaterialShaderQualitySettings
 /I Runtime\MaterialShaderQualitySettings\Classes
@@ -246,19 +253,7 @@
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I ThirdParty\PhysX3\APEX_1.4\include
-/I ThirdParty\PhysX3\APEX_1.4\include\clothing
-/I ThirdParty\PhysX3\APEX_1.4\include\nvparameterized
-/I ThirdParty\PhysX3\APEX_1.4\include\legacy
-/I ThirdParty\PhysX3\APEX_1.4\include\PhysX3
-/I ThirdParty\PhysX3\APEX_1.4\common\include
-/I ThirdParty\PhysX3\APEX_1.4\common\include\autogen
-/I ThirdParty\PhysX3\APEX_1.4\framework\include
-/I ThirdParty\PhysX3\APEX_1.4\framework\include\autogen
-/I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
-/I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
-/I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
