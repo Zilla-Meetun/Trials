@@ -3,7 +3,7 @@
 
 #include "Zilly.h"
 
-#include <string>
+#
 
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -93,6 +93,8 @@ void AZilly::OnAttackHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrim
 	FVector NormalImpulse, const FHitResult& Hit)
 {
 	UE_LOG(LogTemp, Warning, TEXT("HITTING! %s"), *Hit.GetActor()->GetName())
+	if(HitComp->IsSimulatingPhysics())
+		HitComp->AddImpulse(NormalImpulse);
 }
 
 void AZilly::MoveForward(float Value)

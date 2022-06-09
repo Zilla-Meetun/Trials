@@ -2,11 +2,10 @@ K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\
 K:\Mastered\Trials\Trials\Source\Trials\Public\TilePuzzle.h
 K:\Mastered\Trials\Trials\Source\Trials\Public\TilePiece.h
 K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePiece.generated.h
-C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
-C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+K:\Mastered\Trials\Trials\Source\Trials\Public\PuzzleTrigger.h
+K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\PuzzleTrigger.generated.h
 K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePuzzle.generated.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\string
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Editor\Kismet\Public\SSCSEditor.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Slate\Public\Widgets/Views/STreeView.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Engine/SCS_Node.h
@@ -65,6 +64,10 @@ C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Edit
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
 K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\Zilly.generated.h
 K:\Mastered\Trials\Trials\Source\Trials\Private\../../../Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h

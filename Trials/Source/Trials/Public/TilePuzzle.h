@@ -3,9 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
 #include "TilePiece.h"
-#include "Components/BoxComponent.h"
 #include "GameFramework/Actor.h"
+#include "PuzzleTrigger.h"
 #include "TilePuzzle.generated.h"
 
 UCLASS(Blueprintable, BlueprintType)
@@ -23,25 +24,34 @@ protected:
 
 	virtual void OnConstruction(const FTransform& Transform) override;
 	
+	virtual void Destroyed() override;
+	
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UStaticMeshComponent* RootMesh;
+	UFUNCTION()
+	void CheckPuzzleState();
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int XLength = 3;
+	class UStaticMeshComponent* RootMesh;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int XLength = 1;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int YLength = 3;
+	int YLength = 1;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float Spacing = 120;
-
-	UPROPERTY(EditAnywhere)
-	ATilePiece* Tile;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	TArray<ATilePiece*> Grid;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool bIsComplete = false;
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+	class AActor* ActivationActor = nullptr;
+
+	
 };
+

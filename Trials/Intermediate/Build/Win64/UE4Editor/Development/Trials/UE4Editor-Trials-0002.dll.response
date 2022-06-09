@@ -1,0 +1,89 @@
+/MANIFEST:EMBED
+/MANIFESTINPUT:"C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Build\Windows\Resources\Default-Win64.manifest"
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:12000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/DELAYLOAD:"DBGHELP.DLL"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+/FUNCTIONPADMIN
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\FenceSpline.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\PressurePlate.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\PunchStartNotify.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\PuzzleTrigger.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TileDataAsset.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TilePiece.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TilePuzzle.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Zilly.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Trials.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TrialsGameModeBase.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\FenceSpline.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\PressurePlate.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\PunchStartNotify.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\PuzzleTrigger.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TileDataAsset.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TilePiece.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TilePuzzle.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Trials.init.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\TrialsGameModeBase.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Zilly.gen.cpp.obj"
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Default.rc2.res"
+"C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+/OUT:"K:\Mastered\Trials\Trials\Binaries\Win64\UE4Editor-Trials-0002.dll"
+/IMPLIB:"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\UE4Editor-Trials-0002.suppressed.lib"
+/PDB:"K:\Mastered\Trials\Trials\Binaries\Win64\UE4Editor-Trials-0002.pdb"
+/ignore:4078

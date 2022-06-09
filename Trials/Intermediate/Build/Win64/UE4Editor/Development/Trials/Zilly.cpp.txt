@@ -11,7 +11,6 @@ C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Co
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
 K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\Zilly.generated.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\string
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h

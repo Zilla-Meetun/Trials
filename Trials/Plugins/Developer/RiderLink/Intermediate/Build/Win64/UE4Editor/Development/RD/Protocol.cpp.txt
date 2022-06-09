@@ -201,7 +201,6 @@ K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlo
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
 K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\iostream

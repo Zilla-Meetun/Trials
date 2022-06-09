@@ -10,5 +10,8 @@ public class TrialsEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "Trials" } );
+		
+		bCompileChaos = true;
+		bUseChaos = true;
 	}
 }

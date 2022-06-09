@@ -6,6 +6,7 @@
 /NAME:"UE4Editor-RiderLink.dll"
 /IGNORE:4221
 /NODEFAULTLIB
+"K:\Mastered\Trials\Trials\Intermediate\Build\Win64\TrialsEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h.obj"
 "K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\ProtocolFactory.cpp.obj"
 "K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\RiderLink.cpp.obj"
 "K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\BlueprintFunction.Generated.cpp.obj"

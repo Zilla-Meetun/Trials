@@ -4,8 +4,6 @@ C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\CoreUObject\Publi
 K:\Mastered\Trials\Trials\Source\Trials/Public/TilePuzzle.h
 K:\Mastered\Trials\Trials\Source\Trials\Public\TilePiece.h
 K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePiece.generated.h
-C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
-C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+K:\Mastered\Trials\Trials\Source\Trials\Public\PuzzleTrigger.h
+K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\PuzzleTrigger.generated.h
 K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePuzzle.generated.h

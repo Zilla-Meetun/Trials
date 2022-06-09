@@ -1,0 +1,3 @@
+K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
+K:\Mastered\Trials\Trials\Source\Trials\Public\PuzzleTrigger.h
+K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\PuzzleTrigger.generated.h

@@ -3,12 +3,15 @@
 
 #include "TilePiece.h"
 
+#include "TilePuzzle.h"
+#include "Zilly.h"
 #include "Components/BoxComponent.h"
 
 // Sets default values
 ATilePiece::ATilePiece()
 {
-	AdjacentIndex.Empty();
+	bIsOn = false;
+	bFinished=false;
 	
 	TileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	RootComponent = TileMesh;
@@ -20,33 +23,69 @@ ATilePiece::ATilePiece()
 	if(MeshAsset.Succeeded())
 	{
 		TileMesh->SetStaticMesh(MeshAsset.Object);
-		TileMesh->SetRelativeScale3D(FVector(1.0f,1.0f,0.2f));
+		TileMesh->SetRelativeScale3D(FVector(1.0f,1.0f,0.1f));
+		TileMesh->SetNotifyRigidBodyCollision(false);
 	}
 
-	static ConstructorHelpers::FObjectFinder<UMaterialInstance>FoundMat(TEXT("MaterialInstanceConstant'/Game/Materials/TIleMaterial_Inst.TIleMaterial_Inst'"));
+	static ConstructorHelpers::FObjectFinder<UMaterialInstance>FoundMat(TEXT("MaterialInstanceConstant'/Game/Materials/BasicMat_Inst.BasicMat_Inst'"));
 	
 	if(FoundMat.Succeeded())
 	{
-	
-		DynamicMatInst = UMaterialInstanceDynamic::Create(FoundMat.Object, TileMesh);
-		TileMesh->SetMaterial(0, DynamicMatInst);
+		MatInst = FoundMat.Object;
 	}
 
-	TileCollision->SetRelativeScale3D(FVector(1.5f, 1.5f, 1.0f));
-	TileCollision->SetRelativeLocation(FVector(0.0f, 0.0f, 22.0f));
+	
+	TileCollision->SetRelativeScale3D(FVector(1.5f, 1.5f, 1.5f));
+	TileCollision->SetRelativeLocation(FVector(0.0f, 0.0f, 23.0f));
+	
 }
 
-void ATilePiece::BeginPlay()
+void ATilePiece::PostInitializeComponents()
 {
-	Super::BeginPlay();
-
+	Super::PostInitializeComponents();
 	TileCollision->OnComponentBeginOverlap.AddDynamic(this, &ATilePiece::OnTileOverlap);
+	
+	DynamicMatInst = UMaterialInstanceDynamic::Create(MatInst, TileMesh);
+	TileMesh->SetMaterial(0, DynamicMatInst);
+	if(bIsOn)
+		DynamicMatInst->SetVectorParameterValue(FName("Colour"), OnColour);
+	else
+		DynamicMatInst->SetVectorParameterValue(FName("Colour"), OffColour);
 }
+
 
 
 void ATilePiece::OnTileOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
                                int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	if(bFinished || !Cast<AZilly>(OtherActor) || DoneOnce)
+		return;
+	DoneOnce = true;
+	FlipTile();
+	for(ATilePiece* Tile : AdjacentTiles)
+		Tile->FlipTile();
+
+	if(ATilePuzzle* Puzzle = Cast<ATilePuzzle>(GetAttachParentActor()))
+		Puzzle->CheckPuzzleState();
+	FTimerHandle UnusedHandle;
+	GetWorldTimerManager().SetTimer(
+		UnusedHandle, this, &ATilePiece::ResetDo, 0.75f, false);
 	
+	
+	
+}
+
+void ATilePiece::FlipTile()
+{
+	bIsOn = !bIsOn;
+	if(bIsOn)
+		DynamicMatInst->SetVectorParameterValue(FName("Colour"), OnColour);
+	else
+		DynamicMatInst->SetVectorParameterValue(FName("Colour"), OffColour);
+}
+
+void ATilePiece::ResetDo()
+{
+	DoneOnce = false;
 }
 

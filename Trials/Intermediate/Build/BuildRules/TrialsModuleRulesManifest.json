@@ -2,11 +2,10 @@
 	"SourceFiles": [
 		"K:\\Mastered\\Trials\\Trials\\Source\\Trials\\Trials.Build.cs",
 		"K:\\Mastered\\Trials\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
-		"K:\\Mastered\\Trials\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
-		"K:\\Mastered\\Trials\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"K:\\Mastered\\Trials\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\RiderBlueprintExtension.Build.cs",
+		"K:\\Mastered\\Trials\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\RiderGameControlExtension.Build.cs",
 		"K:\\Mastered\\Trials\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
-		"K:\\Mastered\\Trials\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
-		"K:\\Mastered\\Trials\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfoDump\\RiderShaderInfoDump.Build.cs",
+		"K:\\Mastered\\Trials\\Trials\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\RiderLoggingExtension.Build.cs",
 		"K:\\Mastered\\Trials\\Trials\\Source\\Trials.Target.cs",
 		"K:\\Mastered\\Trials\\Trials\\Source\\TrialsEditor.Target.cs"
 	],

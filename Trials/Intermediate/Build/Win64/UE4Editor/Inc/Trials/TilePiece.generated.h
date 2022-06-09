@@ -19,11 +19,15 @@ struct FHitResult;
 #define Trials_Source_Trials_Public_TilePiece_h_12_SPARSE_DATA
 #define Trials_Source_Trials_Public_TilePiece_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execResetDo); \
+	DECLARE_FUNCTION(execFlipTile); \
 	DECLARE_FUNCTION(execOnTileOverlap);
 
 
 #define Trials_Source_Trials_Public_TilePiece_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execResetDo); \
+	DECLARE_FUNCTION(execFlipTile); \
 	DECLARE_FUNCTION(execOnTileOverlap);
 
 
@@ -69,7 +73,10 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATilePiece)
 
 
-#define Trials_Source_Trials_Public_TilePiece_h_12_PRIVATE_PROPERTY_OFFSET
+#define Trials_Source_Trials_Public_TilePiece_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__DoneOnce() { return STRUCT_OFFSET(ATilePiece, DoneOnce); }
+
+
 #define Trials_Source_Trials_Public_TilePiece_h_9_PROLOG
 #define Trials_Source_Trials_Public_TilePiece_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
