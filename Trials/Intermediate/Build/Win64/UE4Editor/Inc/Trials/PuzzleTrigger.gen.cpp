@@ -41,7 +41,7 @@ void EmptyLinkFunctionForGeneratedCodePuzzleTrigger() {}
 		{ "ModuleRelativePath", "Public/PuzzleTrigger.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPuzzleTrigger_Activate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPuzzleTrigger, nullptr, "Activate", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPuzzleTrigger_Activate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPuzzleTrigger_Activate_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPuzzleTrigger_Activate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPuzzleTrigger, nullptr, "Activate", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPuzzleTrigger_Activate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPuzzleTrigger_Activate_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UPuzzleTrigger_Activate()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -63,7 +63,7 @@ void EmptyLinkFunctionForGeneratedCodePuzzleTrigger() {}
 		{ "ModuleRelativePath", "Public/PuzzleTrigger.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPuzzleTrigger_Deactivate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPuzzleTrigger, nullptr, "Deactivate", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPuzzleTrigger_Deactivate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPuzzleTrigger_Deactivate_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPuzzleTrigger_Deactivate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPuzzleTrigger, nullptr, "Deactivate", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPuzzleTrigger_Deactivate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPuzzleTrigger_Deactivate_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UPuzzleTrigger_Deactivate()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -92,8 +92,8 @@ void EmptyLinkFunctionForGeneratedCodePuzzleTrigger() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Trials,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UPuzzleTrigger_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UPuzzleTrigger_Activate, "Activate" }, // 86605657
-		{ &Z_Construct_UFunction_UPuzzleTrigger_Deactivate, "Deactivate" }, // 1672671396
+		{ &Z_Construct_UFunction_UPuzzleTrigger_Activate, "Activate" }, // 445216334
+		{ &Z_Construct_UFunction_UPuzzleTrigger_Deactivate, "Deactivate" }, // 2011892219
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPuzzleTrigger_Statics::Class_MetaDataParams[] = {
@@ -129,7 +129,7 @@ void EmptyLinkFunctionForGeneratedCodePuzzleTrigger() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPuzzleTrigger, 4135431907);
+	IMPLEMENT_CLASS(UPuzzleTrigger, 2715423700);
 	template<> TRIALS_API UClass* StaticClass<UPuzzleTrigger>()
 	{
 		return UPuzzleTrigger::StaticClass();

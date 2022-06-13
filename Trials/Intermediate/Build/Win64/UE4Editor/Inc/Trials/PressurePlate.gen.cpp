@@ -476,7 +476,7 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor = { "TriggerActor", nullptr, (EPropertyFlags)0x0010000000000801, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, TriggerActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor = { "TriggerActor", nullptr, (EPropertyFlags)0x0010000000000805, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, TriggerActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_bIsActive_MetaData[] = {
 		{ "Category", "PressurePlate" },
@@ -528,7 +528,7 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APressurePlate, 1306387987);
+	IMPLEMENT_CLASS(APressurePlate, 2824750304);
 	template<> TRIALS_API UClass* StaticClass<APressurePlate>()
 	{
 		return APressurePlate::StaticClass();

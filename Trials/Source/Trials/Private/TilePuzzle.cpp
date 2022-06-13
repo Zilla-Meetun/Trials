@@ -51,8 +51,8 @@ void ATilePuzzle::OnConstruction(const FTransform& Transform)
 	{
 		if(!Tile)
 			continue;
-		auto Comps = Tile->GetComponents();
-		for(auto It = Comps.CreateIterator(); It ; ++It)
+		TSet<UActorComponent*> Comps = Tile->GetComponents();
+		for(TSet<UActorComponent*>::TIterator It = Comps.CreateIterator(); It ; ++It)
 			(*It)->DestroyComponent();
 		Tile->UnregisterAllComponents();
 		Tile->RemoveFromRoot();
@@ -89,13 +89,12 @@ void ATilePuzzle::Destroyed()
 	{
 		if(!Tile)
 			continue;
-		auto Comps = Tile->GetComponents();
-		for(auto It = Comps.CreateIterator(); It ; ++It)
+		TSet<UActorComponent*> Comps = Tile->GetComponents();
+		for(TSet<UActorComponent*>::TIterator It = Comps.CreateIterator(); It ; ++It)
 			(*It)->DestroyComponent();
 		Tile->UnregisterAllComponents();
 		Tile->RemoveFromRoot();
 	}
-	
 	Grid.Empty();
 }
 
