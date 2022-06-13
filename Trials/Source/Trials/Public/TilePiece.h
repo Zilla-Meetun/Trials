@@ -48,7 +48,9 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	bool bFinished = false;
-	
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool bUndoable;
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
 	TArray<ATilePiece*> AdjacentTiles;
 

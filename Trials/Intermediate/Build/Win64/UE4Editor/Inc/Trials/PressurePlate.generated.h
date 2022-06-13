@@ -18,14 +18,22 @@ struct FHitResult;
 
 #define Trials_Source_Trials_Public_PressurePlate_h_13_SPARSE_DATA
 #define Trials_Source_Trials_Public_PressurePlate_h_13_RPC_WRAPPERS \
+	virtual void DeactivatePlate_Implementation(); \
+	virtual void ActivatePlate_Implementation(); \
  \
+	DECLARE_FUNCTION(execDeactivatePlate); \
+	DECLARE_FUNCTION(execActivatePlate); \
 	DECLARE_FUNCTION(execOnPlateEndOverlap); \
 	DECLARE_FUNCTION(execOnPlateOverlap); \
 	DECLARE_FUNCTION(execCalculateMass);
 
 
 #define Trials_Source_Trials_Public_PressurePlate_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void DeactivatePlate_Implementation(); \
+	virtual void ActivatePlate_Implementation(); \
  \
+	DECLARE_FUNCTION(execDeactivatePlate); \
+	DECLARE_FUNCTION(execActivatePlate); \
 	DECLARE_FUNCTION(execOnPlateEndOverlap); \
 	DECLARE_FUNCTION(execOnPlateOverlap); \
 	DECLARE_FUNCTION(execCalculateMass);

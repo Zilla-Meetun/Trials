@@ -70,7 +70,8 @@ void ATilePuzzle::OnConstruction(const FTransform& Transform)
 			Piece->AttachToActor(this, FAttachmentTransformRules::KeepWorldTransform, NAME_None);
 			
 			
-			Piece->SetActorLocationAndRotation(this->GetActorLocation()+FVector(x * Spacing , y * Spacing,0.0f), this->GetActorRotation());
+			Piece->SetActorLocationAndRotation(this->GetActorLocation()+FVector((x * (TileSize * GetActorScale().X +
+			Spacing)) ,(y * (TileSize * GetActorScale().Y +Spacing)),0.0f), this->GetActorRotation());
 			Piece->SetActorScale3D(this->GetActorScale());
 			
 			Piece->TileMesh->SetRelativeScale3D(FVector(1.0f, 1.0f, 0.1f));
@@ -101,6 +102,17 @@ void ATilePuzzle::Destroyed()
 
 void ATilePuzzle::CheckPuzzleState()
 {
+	if(bIsUndoable&&bIsComplete)
+	{
+		for(ATilePiece* Tile : Grid)
+		{
+			Tile->bFinished = false;
+		}
+		if(ActivationActor && ActivationActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
+			IPuzzleTrigger::Execute_Deactivate(ActivationActor);
+		bIsComplete = false;
+		return;
+	}
 	bIsComplete = true;
 	for(const ATilePiece* Tile : Grid)
 	{

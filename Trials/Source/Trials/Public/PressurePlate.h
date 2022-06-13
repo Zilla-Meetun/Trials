@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/BoxComponent.h"
+#include "Components/TimelineComponent.h"
 #include "GameFramework/Actor.h"
 #include "PressurePlate.generated.h"
 
@@ -31,9 +32,18 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 	UBoxComponent* PlateCollision = nullptr;
 
+	UPROPERTY(EditDefaultsOnly)
+	class UTimelineComponent* PressurePlateTimeline = nullptr;
+
+	UPROPERTY()
+	FOnTimelineFloat PlateHeightRatio;
+
+	UPROPERTY()
+	FOnTimelineEvent TimelineFinishEvent;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float ActivatedWeight = 50;
-
+	
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly)
 	float TotalMass = 0;
 
@@ -57,12 +67,18 @@ public:
 	
 	UFUNCTION()
 	void CalculateMass();
-
+	
 	UFUNCTION()
 	void OnPlateOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	UFUNCTION()
 	void OnPlateEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	UFUNCTION()
+	void PlateUpdate(float Value);
+
+	UFUNCTION()
+	void PlateFinish(float Value);
 	
 	UFUNCTION(BlueprintImplementableEvent)
 	void RaisePlate();

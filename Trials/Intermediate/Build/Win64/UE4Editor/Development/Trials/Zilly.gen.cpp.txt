@@ -1,7 +1,7 @@
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-K:\Mastered\Trials\Trials\Source\Trials/Public/Zilly.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials/Public/Zilly.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
@@ -12,4 +12,4 @@ C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Co
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\Zilly.generated.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\Zilly.generated.h

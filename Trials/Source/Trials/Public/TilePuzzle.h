@@ -40,14 +40,20 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int YLength = 1;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	float TileSize = 100;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float Spacing = 120;
+	float Spacing = 20;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	TArray<ATilePiece*> Grid;
 
 	UPROPERTY(BlueprintReadOnly)
 	bool bIsComplete = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool bIsUndoable = false;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
 	class AActor* ActivationActor = nullptr;

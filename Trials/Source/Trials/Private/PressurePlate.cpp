@@ -3,10 +3,11 @@
 
 #include "PressurePlate.h"
 
+#include "PuzzleTrigger.h"
+
 // Sets default values
 APressurePlate::APressurePlate()
 {
-	
 	PlateMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PlateMesh"));
 	PlateMesh->SetupAttachment(RootComponent);
 
@@ -20,14 +21,13 @@ void APressurePlate::BeginPlay()
 	Super::BeginPlay();
 	PlateCollision->OnComponentBeginOverlap.AddDynamic(this, &APressurePlate::OnPlateOverlap);
 	PlateCollision->OnComponentEndOverlap.AddDynamic(this, &APressurePlate::OnPlateEndOverlap);
-	
 }
 
 // Called every frame
 void APressurePlate::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
 }
 
 void APressurePlate::CalculateMass()
@@ -47,17 +47,29 @@ void APressurePlate::CalculateMass()
 	if (TotalMass  >= ActivatedWeight)
 	{
 		TotalMass = ActivatedWeight;
-		bIsActive = true;
-		ActivatePlate();
+		if(!bIsActive)
+		{
+			if(TriggerActor&&TriggerActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
+				IPuzzleTrigger::Execute_Activate(TriggerActor);	
+			bIsActive = true;
+			ActivatePlate();
+		}
 	}
 	else
 	{
-		DeactivatePlate();
-		bIsActive= false;
+		if(bIsActive)
+		{
+			if(TriggerActor&&TriggerActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
+				IPuzzleTrigger::Execute_Deactivate(TriggerActor);
+			DeactivatePlate();
+			bIsActive= false;
+		}
+		
 	}
 	NewOffset = (TotalMass/ActivatedWeight);
 	
 }
+
 
 void APressurePlate::OnPlateOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
                                     UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -77,4 +89,17 @@ void APressurePlate::OnPlateEndOverlap(UPrimitiveComponent* OverlappedComp, AAct
 	CalculateMass();
 	RaisePlate();
 }
+
+void APressurePlate::PlateUpdate(float Value)
+{
+	
+}
+
+void APressurePlate::PlateFinish(float Value)
+{
+}
+
+
+
+
 

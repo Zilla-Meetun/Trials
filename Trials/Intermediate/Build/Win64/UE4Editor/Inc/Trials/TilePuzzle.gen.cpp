@@ -82,6 +82,10 @@ void EmptyLinkFunctionForGeneratedCodeTilePuzzle() {}
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_YLength;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TileSize_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TileSize;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Spacing_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Spacing;
@@ -95,6 +99,11 @@ void EmptyLinkFunctionForGeneratedCodeTilePuzzle() {}
 #endif
 		static void NewProp_bIsComplete_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsComplete;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsUndoable_MetaData[];
+#endif
+		static void NewProp_bIsUndoable_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsUndoable;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActivationActor_MetaData[];
 #endif
@@ -141,6 +150,13 @@ void EmptyLinkFunctionForGeneratedCodeTilePuzzle() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATilePuzzle_Statics::NewProp_YLength = { "YLength", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATilePuzzle, YLength), METADATA_PARAMS(Z_Construct_UClass_ATilePuzzle_Statics::NewProp_YLength_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePuzzle_Statics::NewProp_YLength_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePuzzle_Statics::NewProp_TileSize_MetaData[] = {
+		{ "Category", "TilePuzzle" },
+		{ "ModuleRelativePath", "Public/TilePuzzle.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATilePuzzle_Statics::NewProp_TileSize = { "TileSize", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATilePuzzle, TileSize), METADATA_PARAMS(Z_Construct_UClass_ATilePuzzle_Statics::NewProp_TileSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePuzzle_Statics::NewProp_TileSize_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePuzzle_Statics::NewProp_Spacing_MetaData[] = {
 		{ "Category", "TilePuzzle" },
 		{ "ModuleRelativePath", "Public/TilePuzzle.h" },
@@ -168,6 +184,17 @@ void EmptyLinkFunctionForGeneratedCodeTilePuzzle() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsComplete = { "bIsComplete", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATilePuzzle), &Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsComplete_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsComplete_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsComplete_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsUndoable_MetaData[] = {
+		{ "Category", "TilePuzzle" },
+		{ "ModuleRelativePath", "Public/TilePuzzle.h" },
+	};
+#endif
+	void Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsUndoable_SetBit(void* Obj)
+	{
+		((ATilePuzzle*)Obj)->bIsUndoable = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsUndoable = { "bIsUndoable", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATilePuzzle), &Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsUndoable_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsUndoable_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsUndoable_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePuzzle_Statics::NewProp_ActivationActor_MetaData[] = {
 		{ "Category", "TilePuzzle" },
 		{ "ModuleRelativePath", "Public/TilePuzzle.h" },
@@ -178,10 +205,12 @@ void EmptyLinkFunctionForGeneratedCodeTilePuzzle() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_RootMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_XLength,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_YLength,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_TileSize,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_Spacing,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_Grid_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_Grid,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsComplete,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_bIsUndoable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePuzzle_Statics::NewProp_ActivationActor,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATilePuzzle_Statics::StaticCppClassTypeInfo = {
@@ -211,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeTilePuzzle() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATilePuzzle, 699226297);
+	IMPLEMENT_CLASS(ATilePuzzle, 1123187619);
 	template<> TRIALS_API UClass* StaticClass<ATilePuzzle>()
 	{
 		return ATilePuzzle::StaticClass();

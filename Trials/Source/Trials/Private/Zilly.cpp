@@ -54,7 +54,7 @@ void AZilly::BeginPlay()
 {
 	Super::BeginPlay();
 
-	const FAttachmentTransformRules HandAttachmentRule(EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, EAttachmentRule::KeepWorld, false);
+	const FAttachmentTransformRules HandAttachmentRule(EAttachmentRule::SnapToTarget,EAttachmentRule::SnapToTarget, EAttachmentRule::KeepWorld, false);
 
 	LeftFistCollider->AttachToComponent(GetMesh(), HandAttachmentRule, FName("LFist"));
 	RightFistCollider->AttachToComponent(GetMesh(), HandAttachmentRule, FName("RFist"));

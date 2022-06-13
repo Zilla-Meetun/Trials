@@ -37,6 +37,9 @@ ATilePiece::ATilePiece()
 	
 	TileCollision->SetRelativeScale3D(FVector(1.5f, 1.5f, 1.5f));
 	TileCollision->SetRelativeLocation(FVector(0.0f, 0.0f, 23.0f));
+
+	if(const ATilePuzzle* Puzzle = Cast<ATilePuzzle>(GetAttachParentActor()))
+		bUndoable = Puzzle->bIsUndoable;
 	
 }
 
@@ -47,10 +50,13 @@ void ATilePiece::PostInitializeComponents()
 	
 	DynamicMatInst = UMaterialInstanceDynamic::Create(MatInst, TileMesh);
 	TileMesh->SetMaterial(0, DynamicMatInst);
+	
 	if(bIsOn)
 		DynamicMatInst->SetVectorParameterValue(FName("Colour"), OnColour);
 	else
 		DynamicMatInst->SetVectorParameterValue(FName("Colour"), OffColour);
+
+	
 }
 
 
@@ -58,7 +64,7 @@ void ATilePiece::PostInitializeComponents()
 void ATilePiece::OnTileOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
                                int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	if(bFinished || !Cast<AZilly>(OtherActor) || DoneOnce)
+	if((bFinished&& !bUndoable )|| !Cast<AZilly>(OtherActor) || DoneOnce)
 		return;
 	DoneOnce = true;
 	FlipTile();

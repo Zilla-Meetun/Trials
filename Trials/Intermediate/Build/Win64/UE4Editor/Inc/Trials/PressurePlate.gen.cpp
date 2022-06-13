@@ -23,6 +23,20 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(APressurePlate::execDeactivatePlate)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->DeactivatePlate_Implementation();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(APressurePlate::execActivatePlate)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ActivatePlate_Implementation();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(APressurePlate::execOnPlateEndOverlap)
 	{
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp);
@@ -78,7 +92,9 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 	{
 		UClass* Class = APressurePlate::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ActivatePlate", &APressurePlate::execActivatePlate },
 			{ "CalculateMass", &APressurePlate::execCalculateMass },
+			{ "DeactivatePlate", &APressurePlate::execDeactivatePlate },
 			{ "OnPlateEndOverlap", &APressurePlate::execOnPlateEndOverlap },
 			{ "OnPlateOverlap", &APressurePlate::execOnPlateOverlap },
 		};
@@ -96,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APressurePlate_ActivatePlate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APressurePlate, nullptr, "ActivatePlate", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APressurePlate_ActivatePlate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APressurePlate_ActivatePlate_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APressurePlate_ActivatePlate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APressurePlate, nullptr, "ActivatePlate", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APressurePlate_ActivatePlate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APressurePlate_ActivatePlate_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_APressurePlate_ActivatePlate()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -140,7 +156,7 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APressurePlate_DeactivatePlate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APressurePlate, nullptr, "DeactivatePlate", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APressurePlate_DeactivatePlate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APressurePlate_DeactivatePlate_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APressurePlate_DeactivatePlate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APressurePlate, nullptr, "DeactivatePlate", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APressurePlate_DeactivatePlate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APressurePlate_DeactivatePlate_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_APressurePlate_DeactivatePlate()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -397,9 +413,9 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Trials,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APressurePlate_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APressurePlate_ActivatePlate, "ActivatePlate" }, // 1615666666
+		{ &Z_Construct_UFunction_APressurePlate_ActivatePlate, "ActivatePlate" }, // 1260484855
 		{ &Z_Construct_UFunction_APressurePlate_CalculateMass, "CalculateMass" }, // 798168051
-		{ &Z_Construct_UFunction_APressurePlate_DeactivatePlate, "DeactivatePlate" }, // 2841214942
+		{ &Z_Construct_UFunction_APressurePlate_DeactivatePlate, "DeactivatePlate" }, // 1511489348
 		{ &Z_Construct_UFunction_APressurePlate_LowerPlate, "LowerPlate" }, // 4264406178
 		{ &Z_Construct_UFunction_APressurePlate_OnPlateEndOverlap, "OnPlateEndOverlap" }, // 698821945
 		{ &Z_Construct_UFunction_APressurePlate_OnPlateOverlap, "OnPlateOverlap" }, // 3104311940
@@ -528,7 +544,7 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APressurePlate, 1306387987);
+	IMPLEMENT_CLASS(APressurePlate, 1909382434);
 	template<> TRIALS_API UClass* StaticClass<APressurePlate>()
 	{
 		return APressurePlate::StaticClass();
