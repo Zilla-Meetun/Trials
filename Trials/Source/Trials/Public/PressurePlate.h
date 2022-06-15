@@ -59,7 +59,7 @@ public:
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float NewOffset = 0;
 	
-	UPROPERTY(EditInstanceOnly)
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
 	AActor* TriggerActor = nullptr;
 
 	UPROPERTY(BlueprintReadWrite)
