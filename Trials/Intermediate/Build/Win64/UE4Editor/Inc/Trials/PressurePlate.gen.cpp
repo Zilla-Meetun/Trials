@@ -22,9 +22,6 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UTimelineComponent_NoRegister();
-	ENGINE_API UFunction* Z_Construct_UDelegateFunction_Engine_OnTimelineFloat__DelegateSignature();
-	ENGINE_API UFunction* Z_Construct_UDelegateFunction_Engine_OnTimelineEvent__DelegateSignature();
 // End Cross Module References
 	DEFINE_FUNCTION(APressurePlate::execPlateFinish)
 	{
@@ -440,18 +437,6 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlateCollision;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PressurePlateTimeline_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PressurePlateTimeline;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlateHeightRatio_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FDelegatePropertyParams NewProp_PlateHeightRatio;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TimelineFinishEvent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FDelegatePropertyParams NewProp_TimelineFinishEvent;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActivatedWeight_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ActivatedWeight;
@@ -476,15 +461,21 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewOffset_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_NewOffset;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerActors_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerActor_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerActors_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerActor;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_TriggerActors;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsActive_MetaData[];
 #endif
 		static void NewProp_bIsActive_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsActive;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bCanRetrigger_MetaData[];
+#endif
+		static void NewProp_bCanRetrigger_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bCanRetrigger;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -512,7 +503,7 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateMesh_MetaData[] = {
-		{ "Category", "PressurePlate" },
+		{ "Category", "Mesh" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
@@ -527,35 +518,15 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateCollision = { "PlateCollision", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, PlateCollision), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateCollision_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateCollision_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_PressurePlateTimeline_MetaData[] = {
-		{ "Category", "PressurePlate" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/PressurePlate.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_PressurePlateTimeline = { "PressurePlateTimeline", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, PressurePlateTimeline), Z_Construct_UClass_UTimelineComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_PressurePlateTimeline_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_PressurePlateTimeline_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateHeightRatio_MetaData[] = {
-		{ "ModuleRelativePath", "Public/PressurePlate.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FDelegatePropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateHeightRatio = { "PlateHeightRatio", nullptr, (EPropertyFlags)0x0010000000080000, UE4CodeGen_Private::EPropertyGenFlags::Delegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, PlateHeightRatio), Z_Construct_UDelegateFunction_Engine_OnTimelineFloat__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateHeightRatio_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateHeightRatio_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_TimelineFinishEvent_MetaData[] = {
-		{ "ModuleRelativePath", "Public/PressurePlate.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FDelegatePropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_TimelineFinishEvent = { "TimelineFinishEvent", nullptr, (EPropertyFlags)0x0010000000080000, UE4CodeGen_Private::EPropertyGenFlags::Delegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, TimelineFinishEvent), Z_Construct_UDelegateFunction_Engine_OnTimelineEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_TimelineFinishEvent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_TimelineFinishEvent_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_ActivatedWeight_MetaData[] = {
-		{ "Category", "PressurePlate" },
+		{ "Category", "Activation" },
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_ActivatedWeight = { "ActivatedWeight", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, ActivatedWeight), METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_ActivatedWeight_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_ActivatedWeight_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_TotalMass_MetaData[] = {
-		{ "Category", "PressurePlate" },
+		{ "Category", "Debug" },
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
@@ -563,42 +534,43 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_OverlappingActors_Inner = { "OverlappingActors", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_OverlappingActors_MetaData[] = {
-		{ "Category", "PressurePlate" },
+		{ "Category", "Debug" },
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_OverlappingActors = { "OverlappingActors", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, OverlappingActors), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_OverlappingActors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_OverlappingActors_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_MaxZOffset_MetaData[] = {
-		{ "Category", "PressurePlate" },
+		{ "Category", "Activation" },
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_MaxZOffset = { "MaxZOffset", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, MaxZOffset), METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_MaxZOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_MaxZOffset_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_CurrentOffset_MetaData[] = {
-		{ "Category", "PressurePlate" },
+		{ "Category", "Debug" },
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_CurrentOffset = { "CurrentOffset", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, CurrentOffset), METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_CurrentOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_CurrentOffset_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_NewOffset_MetaData[] = {
-		{ "Category", "PressurePlate" },
+		{ "Category", "Debug" },
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_NewOffset = { "NewOffset", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, NewOffset), METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_NewOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_NewOffset_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActors_Inner = { "TriggerActors", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor_MetaData[] = {
-		{ "Category", "PressurePlate" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActors_MetaData[] = {
+		{ "Category", "Activation" },
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor = { "TriggerActor", nullptr, (EPropertyFlags)0x0010000000000805, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, TriggerActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActors = { "TriggerActors", nullptr, (EPropertyFlags)0x0010000000000805, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APressurePlate, TriggerActors), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActors_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_bIsActive_MetaData[] = {
-		{ "Category", "PressurePlate" },
+		{ "Category", "Debug" },
 		{ "ModuleRelativePath", "Public/PressurePlate.h" },
 	};
 #endif
@@ -607,12 +579,20 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		((APressurePlate*)Obj)->bIsActive = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_bIsActive = { "bIsActive", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APressurePlate), &Z_Construct_UClass_APressurePlate_Statics::NewProp_bIsActive_SetBit, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_bIsActive_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_bIsActive_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APressurePlate_Statics::NewProp_bCanRetrigger_MetaData[] = {
+		{ "Category", "Activation" },
+		{ "ModuleRelativePath", "Public/PressurePlate.h" },
+	};
+#endif
+	void Z_Construct_UClass_APressurePlate_Statics::NewProp_bCanRetrigger_SetBit(void* Obj)
+	{
+		((APressurePlate*)Obj)->bCanRetrigger = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APressurePlate_Statics::NewProp_bCanRetrigger = { "bCanRetrigger", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APressurePlate), &Z_Construct_UClass_APressurePlate_Statics::NewProp_bCanRetrigger_SetBit, METADATA_PARAMS(Z_Construct_UClass_APressurePlate_Statics::NewProp_bCanRetrigger_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APressurePlate_Statics::NewProp_bCanRetrigger_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APressurePlate_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateCollision,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_PressurePlateTimeline,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_PlateHeightRatio,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_TimelineFinishEvent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_ActivatedWeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_TotalMass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_OverlappingActors_Inner,
@@ -620,8 +600,10 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_MaxZOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_CurrentOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_NewOffset,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActors_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_TriggerActors,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_bIsActive,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APressurePlate_Statics::NewProp_bCanRetrigger,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APressurePlate_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APressurePlate>::IsAbstract,
@@ -650,7 +632,7 @@ void EmptyLinkFunctionForGeneratedCodePressurePlate() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APressurePlate, 2583169810);
+	IMPLEMENT_CLASS(APressurePlate, 3926284226);
 	template<> TRIALS_API UClass* StaticClass<APressurePlate>()
 	{
 		return APressurePlate::StaticClass();

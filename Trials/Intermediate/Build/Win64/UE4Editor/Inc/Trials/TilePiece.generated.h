@@ -16,22 +16,22 @@ struct FHitResult;
 #endif
 #define TRIALS_TilePiece_generated_h
 
-#define Trials_Source_Trials_Public_TilePiece_h_12_SPARSE_DATA
-#define Trials_Source_Trials_Public_TilePiece_h_12_RPC_WRAPPERS \
+#define Trials_Source_Trials_Public_TilePiece_h_14_SPARSE_DATA
+#define Trials_Source_Trials_Public_TilePiece_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execResetDo); \
 	DECLARE_FUNCTION(execFlipTile); \
 	DECLARE_FUNCTION(execOnTileOverlap);
 
 
-#define Trials_Source_Trials_Public_TilePiece_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Trials_Source_Trials_Public_TilePiece_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execResetDo); \
 	DECLARE_FUNCTION(execFlipTile); \
 	DECLARE_FUNCTION(execOnTileOverlap);
 
 
-#define Trials_Source_Trials_Public_TilePiece_h_12_INCLASS_NO_PURE_DECLS \
+#define Trials_Source_Trials_Public_TilePiece_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATilePiece(); \
 	friend struct Z_Construct_UClass_ATilePiece_Statics; \
@@ -40,7 +40,7 @@ public: \
 	DECLARE_SERIALIZER(ATilePiece)
 
 
-#define Trials_Source_Trials_Public_TilePiece_h_12_INCLASS \
+#define Trials_Source_Trials_Public_TilePiece_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesATilePiece(); \
 	friend struct Z_Construct_UClass_ATilePiece_Statics; \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(ATilePiece)
 
 
-#define Trials_Source_Trials_Public_TilePiece_h_12_STANDARD_CONSTRUCTORS \
+#define Trials_Source_Trials_Public_TilePiece_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATilePiece(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATilePiece) \
@@ -62,7 +62,7 @@ private: \
 public:
 
 
-#define Trials_Source_Trials_Public_TilePiece_h_12_ENHANCED_CONSTRUCTORS \
+#define Trials_Source_Trials_Public_TilePiece_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATilePiece(ATilePiece&&); \
@@ -73,31 +73,31 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATilePiece)
 
 
-#define Trials_Source_Trials_Public_TilePiece_h_12_PRIVATE_PROPERTY_OFFSET \
+#define Trials_Source_Trials_Public_TilePiece_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__DoneOnce() { return STRUCT_OFFSET(ATilePiece, DoneOnce); }
 
 
-#define Trials_Source_Trials_Public_TilePiece_h_9_PROLOG
-#define Trials_Source_Trials_Public_TilePiece_h_12_GENERATED_BODY_LEGACY \
+#define Trials_Source_Trials_Public_TilePiece_h_11_PROLOG
+#define Trials_Source_Trials_Public_TilePiece_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Trials_Source_Trials_Public_TilePiece_h_12_PRIVATE_PROPERTY_OFFSET \
-	Trials_Source_Trials_Public_TilePiece_h_12_SPARSE_DATA \
-	Trials_Source_Trials_Public_TilePiece_h_12_RPC_WRAPPERS \
-	Trials_Source_Trials_Public_TilePiece_h_12_INCLASS \
-	Trials_Source_Trials_Public_TilePiece_h_12_STANDARD_CONSTRUCTORS \
+	Trials_Source_Trials_Public_TilePiece_h_14_PRIVATE_PROPERTY_OFFSET \
+	Trials_Source_Trials_Public_TilePiece_h_14_SPARSE_DATA \
+	Trials_Source_Trials_Public_TilePiece_h_14_RPC_WRAPPERS \
+	Trials_Source_Trials_Public_TilePiece_h_14_INCLASS \
+	Trials_Source_Trials_Public_TilePiece_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Trials_Source_Trials_Public_TilePiece_h_12_GENERATED_BODY \
+#define Trials_Source_Trials_Public_TilePiece_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Trials_Source_Trials_Public_TilePiece_h_12_PRIVATE_PROPERTY_OFFSET \
-	Trials_Source_Trials_Public_TilePiece_h_12_SPARSE_DATA \
-	Trials_Source_Trials_Public_TilePiece_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Trials_Source_Trials_Public_TilePiece_h_12_INCLASS_NO_PURE_DECLS \
-	Trials_Source_Trials_Public_TilePiece_h_12_ENHANCED_CONSTRUCTORS \
+	Trials_Source_Trials_Public_TilePiece_h_14_PRIVATE_PROPERTY_OFFSET \
+	Trials_Source_Trials_Public_TilePiece_h_14_SPARSE_DATA \
+	Trials_Source_Trials_Public_TilePiece_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	Trials_Source_Trials_Public_TilePiece_h_14_INCLASS_NO_PURE_DECLS \
+	Trials_Source_Trials_Public_TilePiece_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

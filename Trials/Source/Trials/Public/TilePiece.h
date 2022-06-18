@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "TilePiece.generated.h"
 
+class UStaticMeshComponent;
+class UBoxComponent;
 UCLASS(BlueprintType, PerObjectConfig, Blueprintable)
 class TRIALS_API ATilePiece : public AActor
 {
@@ -18,18 +20,25 @@ public:
 
 public:	
 	virtual void PostInitializeComponents() override;
-	
+	virtual void BeginPlay() override;
+	virtual void RegisterAllComponents() override;
 	UFUNCTION(meta = (AllowPrivateAccess = "true"))
 	void OnTileOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	UFUNCTION()
 	void FlipTile();
+
+	UPROPERTY()
+	UStaticMesh* SMCube = nullptr;
+
+	UPROPERTY(BlueprintReadOnly , Category="Root")
+	class USceneComponent* NewRoot;
 	
-	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
-	class UStaticMeshComponent* TileMesh = nullptr;
+	UPROPERTY(VisibleAnywhere, Category="Mesh", meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* TileMesh = nullptr;
 
 	UPROPERTY(VisibleAnywhere, meta = (AllowPrivateAccess = "true"))
-	class UBoxComponent* TileCollision = nullptr;
+	UBoxComponent* TileCollision = nullptr;
 
 	UPROPERTY(BlueprintReadOnly, Category="TileMaterial", meta = (AllowPrivateAccess = "true"))
 	UMaterialInstance* MatInst = nullptr;
@@ -37,21 +46,23 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category="TileMaterial", meta = (AllowPrivateAccess = "true"))
 	UMaterialInstanceDynamic* DynamicMatInst = nullptr;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category="State")
 	FLinearColor OnColour = FLinearColor(0, 0.6923f, 0.7718f, 1);
 
-	UPROPERTY(EditAnywhere)
-	FLinearColor OffColour = FLinearColor(1, 0.205f, 0.102f, 1);
+	UPROPERTY(EditAnywhere, Category="State")
+	FLinearColor OffColour = FLinearColor(1, 0.672f, 0.292f, 1);
 	
-	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditAnywhere, Category="State", meta = (AllowPrivateAccess = "true"))
 	bool bIsOn = false;
 
-	UPROPERTY(BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(BlueprintReadOnly, Category="Debug", meta = (AllowPrivateAccess = "true"))
 	bool bFinished = false;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="State")
 	bool bUndoable;
-	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
+
+	
+	UPROPERTY(EditAnywhere, Category="Debug",meta = (AllowPrivateAccess = "true"))
 	TArray<ATilePiece*> AdjacentTiles;
 
 private:

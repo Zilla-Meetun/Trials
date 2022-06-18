@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Pickup.h"
 #include "GameFramework/Character.h"
 #include "Components/BoxComponent.h"
 #include "Zilly.generated.h"
@@ -46,6 +47,44 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera")
 	float BaseLookUpRate;
 
+	UPROPERTY()
+	APickup* NearestItem;
+	
+	UPROPERTY(BlueprintReadWrite,meta = (ClampMax = "9"))
+	int ItemIndex = 0;
+	
+	UPROPERTY(BlueprintReadWrite, meta = (ArrayClamp = "10"))
+	TArray<APickup*> Inventory;
+
+	UPROPERTY()
+	TMap<APickup*, UFunction*> InventoryMap;
+
+	UPROPERTY()
+	UFunction* VarFunc;
+protected:
+
+	virtual void BeginPlay() override;
+
+public:
+
+	UFUNCTION()
+	void AddToInventory();
+	
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+	void PrintInventory();
+
+	UFUNCTION(BlueprintCallable)
+	void UseItem(const float Key);
+
+	UFUNCTION()
+	void SetNearestItem(APickup* Item);
+	
+	UFUNCTION()
+	void Sprint();
+	
+	UFUNCTION()
+	void StopSprint();
+
 	UFUNCTION()
 	void AttackStart();
 
@@ -54,7 +93,7 @@ public:
 
 	UFUNCTION()
 	void AttackInput();
-
+	
 	UFUNCTION()
 	void OnAttackHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
@@ -63,16 +102,6 @@ public:
 
 	UFUNCTION()
 	void EndCrouch();
-protected:
-
-	virtual void BeginPlay() override;
-
-	UFUNCTION()
-	void Sprint();
-	
-	UFUNCTION()
-	void StopSprint();
-	
 
 	UFUNCTION()
 	void MoveForward(float Value);
@@ -86,8 +115,6 @@ protected:
 	UFUNCTION()
 	void LookUpRate(float Rate);
 
-	
-public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -95,3 +122,5 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 };
+
+

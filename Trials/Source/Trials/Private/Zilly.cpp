@@ -10,6 +10,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/Controller.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AZilly::AZilly()
@@ -58,12 +59,33 @@ void AZilly::BeginPlay()
 
 	LeftFistCollider->AttachToComponent(GetMesh(), HandAttachmentRule, FName("LFist"));
 	RightFistCollider->AttachToComponent(GetMesh(), HandAttachmentRule, FName("RFist"));
-
+	
 	
 	LeftFistCollider->OnComponentHit.AddDynamic(this, &AZilly::OnAttackHit);
 	RightFistCollider->OnComponentHit.AddDynamic(this, &AZilly::OnAttackHit);
 
 }
+
+void AZilly::AddToInventory()
+{
+	if(NearestItem)
+		return;
+	Inventory.Add(NearestItem);
+	NearestItem->Pickup();
+	PrintInventory();
+	NearestItem = nullptr;
+	VarFunc->Bind();
+}
+
+
+void AZilly::SetNearestItem(APickup* Item)
+{
+	if(NearestItem == Item)
+		NearestItem = nullptr;
+	else
+		NearestItem = Item;
+}
+
 
 void AZilly::AttackStart()
 {
@@ -89,8 +111,20 @@ void AZilly::AttackInput()
 	PlayAnimMontage(MeleeFistAttackMontage, 1.0f, FName(*MontageSelection));
 }
 
+
+
+void AZilly::UseItem(const float Key)
+{
+	UE_LOG(LogTemp, Warning, TEXT("InputWorks"))
+	if(Key == 1.0f && Inventory.IsValidIndex(0))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("1 Is Pressed"))
+		Inventory[0]->Use(InteractionZone->GetComponentLocation()+(FVector::ForwardVector*10));
+	}
+}
+
 void AZilly::OnAttackHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
-	FVector NormalImpulse, const FHitResult& Hit)
+                         FVector NormalImpulse, const FHitResult& Hit)
 {
 	UE_LOG(LogTemp, Warning, TEXT("HITTING! %s"), *Hit.GetActor()->GetName())
 	if(HitComp->IsSimulatingPhysics())
@@ -136,20 +170,17 @@ void AZilly::MoveRight(float Value)
 void AZilly::TurnAtRate(float Rate)
 {
 	AddControllerYawInput(Rate*BaseTurnRate* GetWorld()->GetDeltaSeconds());
-	
 }
 
 void AZilly::LookUpRate(float Rate)
 {
 	AddControllerPitchInput(Rate*BaseLookUpRate*GetWorld()->GetDeltaSeconds());
-	
 }
 
 // Called every frame
 void AZilly::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
@@ -166,6 +197,8 @@ void AZilly::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis("TurnRate", this, &AZilly::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AZilly::LookUpRate);
 
+	PlayerInputComponent->BindAxis("UseItem", this, &AZilly::UseItem);
+	
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AZilly::Sprint);
@@ -175,5 +208,8 @@ void AZilly::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AZilly::StartCrouch);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AZilly::EndCrouch);
+
+	PlayerInputComponent->BindAction("Pickup", IE_Pressed, this, &AZilly::AddToInventory);
+	
 }
 

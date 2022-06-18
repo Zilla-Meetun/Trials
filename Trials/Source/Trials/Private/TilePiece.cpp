@@ -12,20 +12,15 @@ ATilePiece::ATilePiece()
 {
 	bIsOn = false;
 	bFinished=false;
-	
-	TileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	RootComponent = TileMesh;
 
+	NewRoot = CreateDefaultSubobject<USceneComponent>(TEXT("NewRoot"));
+	SetRootComponent(NewRoot);
+
+	TileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	TileMesh->SetupAttachment(NewRoot);
+	
 	TileCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("Collision"));
 	TileCollision->SetupAttachment(TileMesh);
-
-	static ConstructorHelpers::FObjectFinder<UStaticMesh>MeshAsset(TEXT("StaticMesh'/Game/Meshes/SM_Cube.SM_Cube'"));
-	if(MeshAsset.Succeeded())
-	{
-		TileMesh->SetStaticMesh(MeshAsset.Object);
-		TileMesh->SetRelativeScale3D(FVector(1.0f,1.0f,0.1f));
-		TileMesh->SetNotifyRigidBodyCollision(false);
-	}
 
 	static ConstructorHelpers::FObjectFinder<UMaterialInstance>FoundMat(TEXT("MaterialInstanceConstant'/Game/Materials/BasicMat_Inst.BasicMat_Inst'"));
 	
@@ -33,37 +28,67 @@ ATilePiece::ATilePiece()
 	{
 		MatInst = FoundMat.Object;
 	}
-
+	
+	static ConstructorHelpers::FObjectFinder<UStaticMesh>MeshAsset(TEXT("StaticMesh'/Game/Meshes/SM_Cube.SM_Cube'"));
+	if(MeshAsset.Succeeded())
+	{
+		SMCube = MeshAsset.Object;
+		TileMesh->SetStaticMesh(SMCube);
+		TileMesh->SetRelativeScale3D(FVector(1.0f,1.0f,0.1f));
+		TileMesh->SetNotifyRigidBodyCollision(false);
+	}
 	
 	TileCollision->SetRelativeScale3D(FVector(1.5f, 1.5f, 1.5f));
-	TileCollision->SetRelativeLocation(FVector(0.0f, 0.0f, 23.0f));
+	TileCollision->SetRelativeLocation(FVector(0.0f, 0.0f, 24.0f));
 
-	if(const ATilePuzzle* Puzzle = Cast<ATilePuzzle>(GetAttachParentActor()))
-		bUndoable = Puzzle->bIsUndoable;
+	
+
 	
 }
 
 void ATilePiece::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
+
+	//sets up collision 
 	TileCollision->OnComponentBeginOverlap.AddDynamic(this, &ATilePiece::OnTileOverlap);
-	
-	DynamicMatInst = UMaterialInstanceDynamic::Create(MatInst, TileMesh);
-	TileMesh->SetMaterial(0, DynamicMatInst);
-	
+
+	// makes and sets dynamic material
+	this->DynamicMatInst = UMaterialInstanceDynamic::Create(MatInst, TileMesh);
+	this->TileMesh->SetMaterial(0, DynamicMatInst);
+
+	//Sets the tiles initial colour 
 	if(bIsOn)
-		DynamicMatInst->SetVectorParameterValue(FName("Colour"), OnColour);
+		this->DynamicMatInst->SetVectorParameterValue(FName("Colour"), OnColour);
 	else
-		DynamicMatInst->SetVectorParameterValue(FName("Colour"), OffColour);
+		this->DynamicMatInst->SetVectorParameterValue(FName("Colour"), OffColour);
+
+	// Sets the tile to be undoable if the puzzle can be undone
+	if(const ATilePuzzle* Puzzle = Cast<ATilePuzzle>(GetAttachParentActor()))
+		bUndoable = Puzzle->bIsUndoable;
 
 	
 }
 
+void ATilePiece::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
+
+void ATilePiece::RegisterAllComponents()
+{
+	Super::RegisterAllComponents();
+	
+	TileMesh->RegisterComponentWithWorld(GetWorld());
+	TileCollision->RegisterComponentWithWorld(GetWorld());
+}
 
 
 void ATilePiece::OnTileOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
                                int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	UE_LOG(LogTemp,Warning,TEXT("Working"))
 	if((bFinished&& !bUndoable )|| !Cast<AZilly>(OtherActor) || DoneOnce)
 		return;
 	DoneOnce = true;
@@ -75,9 +100,7 @@ void ATilePiece::OnTileOverlap(UPrimitiveComponent* OverlappedComp, AActor* Othe
 		Puzzle->CheckPuzzleState();
 	FTimerHandle UnusedHandle;
 	GetWorldTimerManager().SetTimer(
-		UnusedHandle, this, &ATilePiece::ResetDo, 0.75f, false);
-	
-	
+		UnusedHandle, this, &ATilePiece::ResetDo, 1.2f, false);
 	
 }
 

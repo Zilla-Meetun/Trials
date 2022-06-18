@@ -2,13 +2,9 @@
 
 
 #include "TilePuzzle.h"
-
-#include <string>
-
+#include "TilePiece.h"
 #include "PuzzleTrigger.h"
 #include "SSCSEditor.h"
-#include "TilePiece.h"
-
 
 #include "Zilly.h"
 #include "../../../Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h"
@@ -17,7 +13,7 @@
 // Sets default values
 ATilePuzzle::ATilePuzzle()
 {
-	RootMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("NewRoot"));
+	RootMesh = CreateDefaultSubobject<USceneComponent>(TEXT("NewRoot"));
 	RootComponent = RootMesh;
 }
 
@@ -29,24 +25,35 @@ void ATilePuzzle::BeginPlay()
 	{
 		Grid[i]->RegisterAllComponents();
 		Grid[i]->PostInitializeComponents();
-		
-		
-		if(Grid.IsValidIndex(i-1) && i%XLength != 0)
-			Grid[i]->AdjacentTiles.Add(Grid[i-1]);
-		if(Grid.IsValidIndex(i+1) && i%XLength != XLength-1)
-			Grid[i]->AdjacentTiles.Add(Grid[i+1]);
-		if(Grid.IsValidIndex(i-XLength))
-			Grid[i]->AdjacentTiles.Add(Grid[i-XLength]);
-		if(Grid.IsValidIndex(i+XLength))
-			Grid[i]->AdjacentTiles.Add(Grid[i+XLength]);
+
+		switch (TileLinks)
+		{
+			
+			case NoSetup:
+				continue;
+			
+			case Adjacent:
+			if(Grid.IsValidIndex(i-1) && i%YLength != 0)
+				Grid[i]->AdjacentTiles.Add(Grid[i-1]);
+			if(Grid.IsValidIndex(i+1) && i%YLength != YLength-1)
+				Grid[i]->AdjacentTiles.Add(Grid[i+1]);
+			if(Grid.IsValidIndex(i-YLength))
+				Grid[i]->AdjacentTiles.Add(Grid[i-YLength]);
+			if(Grid.IsValidIndex(i+YLength))
+				Grid[i]->AdjacentTiles.Add(Grid[i+YLength]);
+			
+			default:
+				UE_LOG(LogTemp, Warning, TEXT("Added Tile Links"))
+		}
 	}
 }
+
 
 void ATilePuzzle::OnConstruction(const FTransform& Transform)
 {
 	Super::OnConstruction(Transform);
 
-	
+	const FString BaseName = "TilePiece";
 	for(ATilePiece* Tile : Grid)
 	{
 		if(!Tile)
@@ -57,7 +64,7 @@ void ATilePuzzle::OnConstruction(const FTransform& Transform)
 		Tile->UnregisterAllComponents();
 		Tile->RemoveFromRoot();
 	}
-	
+
 	Grid.Empty();
 	
 	RegisterAllComponents();
@@ -65,21 +72,19 @@ void ATilePuzzle::OnConstruction(const FTransform& Transform)
 	for(int x = 0 ; x < XLength ; x++)
 		for(int y = 0 ; y < YLength ; y++)
 		{
-			ATilePiece* Piece =  NewObject<ATilePiece>(this,ATilePiece::StaticClass());
+			
+			FString Name =  FString(BaseName + FString::FromInt(y+(x*XLength)));
+			ATilePiece* Piece =  NewObject<ATilePiece>(this,ATilePiece::StaticClass());//, *Name);
+			
 			Piece->RegisterAllComponents();
 			Piece->AttachToActor(this, FAttachmentTransformRules::KeepWorldTransform, NAME_None);
-			
-			
 			Piece->SetActorLocationAndRotation(this->GetActorLocation()+FVector((x * (TileSize * GetActorScale().X +
 			Spacing)) ,(y * (TileSize * GetActorScale().Y +Spacing)),0.0f), this->GetActorRotation());
 			Piece->SetActorScale3D(this->GetActorScale());
-			
 			Piece->TileMesh->SetRelativeScale3D(FVector(1.0f, 1.0f, 0.1f));
-			
 			Piece->TileMesh->AttachToComponent(RootMesh, FAttachmentTransformRules::KeepWorldTransform);
 			Piece->TileCollision->AttachToComponent(Piece->TileMesh, FAttachmentTransformRules::KeepWorldTransform);
 			Grid.Add(Piece);
-			
 		}
 }
 
@@ -96,6 +101,7 @@ void ATilePuzzle::Destroyed()
 		Tile->UnregisterAllComponents();
 		Tile->RemoveFromRoot();
 	}
+
 	Grid.Empty();
 }
 
@@ -107,8 +113,9 @@ void ATilePuzzle::CheckPuzzleState()
 		{
 			Tile->bFinished = false;
 		}
-		if(ActivationActor && ActivationActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
-			IPuzzleTrigger::Execute_Deactivate(ActivationActor);
+		for(AActor* ActivationActor: ActivationActors)
+			if(ActivationActor && ActivationActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
+				IPuzzleTrigger::Execute_Deactivate(ActivationActor);
 		bIsComplete = false;
 		return;
 	}
@@ -127,8 +134,9 @@ void ATilePuzzle::CheckPuzzleState()
 	{
 		Tile->bFinished = true;
 	}
-	if(ActivationActor && ActivationActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
-		IPuzzleTrigger::Execute_Activate(ActivationActor);
+	for(AActor* ActivationActor: ActivationActors)
+		if(ActivationActor && ActivationActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
+			IPuzzleTrigger::Execute_Activate(ActivationActor);
 	else
 		UE_LOG(LogTemp, Warning, TEXT("Trigger Actor doesn't have puzzle interface"))
 

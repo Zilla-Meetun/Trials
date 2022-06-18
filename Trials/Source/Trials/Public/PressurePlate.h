@@ -26,44 +26,39 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category="Mesh")
 	UStaticMeshComponent* PlateMesh =nullptr;
 
 	UPROPERTY(EditDefaultsOnly)
 	UBoxComponent* PlateCollision = nullptr;
-
-	UPROPERTY(EditDefaultsOnly)
-	class UTimelineComponent* PressurePlateTimeline = nullptr;
-
-	UPROPERTY()
-	FOnTimelineFloat PlateHeightRatio;
-
-	UPROPERTY()
-	FOnTimelineEvent TimelineFinishEvent;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Activation")
 	float ActivatedWeight = 50;
 	
-	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly)
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category="Debug")
 	float TotalMass = 0;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly, Category="Debug")
 	TArray<AActor*> OverlappingActors;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	float MaxZOffset = 5;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Activation")
+	float MaxZOffset = 0.1f;
 
-	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category="Debug")
 	float CurrentOffset = 0;
 
-	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category="Debug")
 	float NewOffset = 0;
 	
-	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
-	AActor* TriggerActor = nullptr;
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category="Activation")
+	TArray<AActor*> TriggerActors;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category="Debug")
 	bool bIsActive = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Activation")
+	bool bCanRetrigger = false;
 	
 	UFUNCTION()
 	void CalculateMass();

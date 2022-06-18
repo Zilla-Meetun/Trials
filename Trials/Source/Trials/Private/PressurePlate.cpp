@@ -21,6 +21,7 @@ void APressurePlate::BeginPlay()
 	Super::BeginPlay();
 	PlateCollision->OnComponentBeginOverlap.AddDynamic(this, &APressurePlate::OnPlateOverlap);
 	PlateCollision->OnComponentEndOverlap.AddDynamic(this, &APressurePlate::OnPlateEndOverlap);
+	
 }
 
 // Called every frame
@@ -49,8 +50,9 @@ void APressurePlate::CalculateMass()
 		TotalMass = ActivatedWeight;
 		if(!bIsActive)
 		{
-			if(TriggerActor&&TriggerActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
-				IPuzzleTrigger::Execute_Activate(TriggerActor);	
+			for(AActor* TriggerActor : TriggerActors)
+				if(TriggerActor&&TriggerActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
+					IPuzzleTrigger::Execute_Activate(TriggerActor);	
 			bIsActive = true;
 			ActivatePlate();
 		}
@@ -59,10 +61,12 @@ void APressurePlate::CalculateMass()
 	{
 		if(bIsActive)
 		{
-			if(TriggerActor&&TriggerActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
-				IPuzzleTrigger::Execute_Deactivate(TriggerActor);
-			DeactivatePlate();
+			for(AActor* TriggerActor : TriggerActors)
+				if(TriggerActor&&TriggerActor->GetClass()->ImplementsInterface(UPuzzleTrigger::StaticClass()))
+					IPuzzleTrigger::Execute_Deactivate(TriggerActor);
 			bIsActive= false;
+			DeactivatePlate();
+			
 		}
 		
 	}
@@ -74,7 +78,9 @@ void APressurePlate::CalculateMass()
 void APressurePlate::OnPlateOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
                                     UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-
+	if(bIsActive && !bCanRetrigger)
+		return;
+	
 	OverlappingActors.Add(OtherActor);
 	CalculateMass();
 	LowerPlate();
@@ -85,6 +91,8 @@ void APressurePlate::OnPlateOverlap(UPrimitiveComponent* OverlappedComp, AActor*
 void APressurePlate::OnPlateEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+	if(bIsActive && !bCanRetrigger)
+		return;
 	OverlappingActors.Remove(OtherActor);
 	CalculateMass();
 	RaisePlate();
