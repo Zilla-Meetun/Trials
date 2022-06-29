@@ -6,609 +6,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe953479-ee73-48cc-9aec-381c68fe2210" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Trials-0001.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Blueprints/BP_FireCoals_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Functions/MF_Fresnel_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Functions/MF_Sand_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Band_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Bangle_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Bangle_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Bowl_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Bowl_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Chalice_01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Chalice_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Chalice_02b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Chest_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Chest_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Chest_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_ClayPot_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_ClayPot_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_ClayPot_03a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Coals_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_CoinMaterial_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_CoinMaterial_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_CoinMaterial_01c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_CoinMaterial_01d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_CoinMaterial_01e.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_CoinMaterial_01f.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_CoinMaterial_01g.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Coin_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Coin_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Crown_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Dagger_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Floor_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Gems_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_GoldBar_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Helmet_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Map_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Necklace_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_OrnateChest_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_OrnateChest_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Pearls_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Ring_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_SandMaterial_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_SandMaterial_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Shield_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Statue_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Statue_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Sword_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Torch_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Urn_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Urn_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Urn_04a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_Urn_05a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Instances/MI_WaterPot_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Masters/MM_Fire_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Masters/MM_Floor_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Masters/MM_Master_Material_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Materials/Masters/MM_PP_Sharpen_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Band_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01e.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01f.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01g.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01h.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01i.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_01j.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02e.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02f.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02g.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02h.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02i.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bangle_02j.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Bowl_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chalice_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chalice_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chalice_02b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ChestCoins_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_01c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_01d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_01e.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_01f.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_01g.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_01h.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_02b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_02c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Chest_02d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_02.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03e.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03f.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03g.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03h.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03i.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ClayPot_03j.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coal_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_CoinMaterial_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_CoinMaterial_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_CoinMaterial_01c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_CoinMaterial_01d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_CoinMaterial_01e.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_01c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_01d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_01e.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_01f.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_01g.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_01h.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_01i.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_02b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_02c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_02d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_02e.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_02f.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_02g.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_02h.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Coin_Pile_02i.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Crown_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Dagger_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Dagger_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Dagger_01c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Gems_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Gems_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Gems_01c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Gems_01d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_GoldBar_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Helmet_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Map_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Necklace_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Necklace_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_OrnateChest_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_OrnateChest_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_OrnateChest_01c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_OrnateChest_01d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_OrnateChest_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_OrnateChest_02b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_OrnateChest_02c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_OrnateChest_02d.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Pearls_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Pearls_01b.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Pearls_01c.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Ring_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Shield_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Statue_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Statue_02a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Sword_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Torch_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Urn_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Urn_02.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_Urn_04a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_WaterPot_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Meshes/SM_ZBackdrop_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/TX_Cubemap_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Tileable/TX_Floortile_02a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Tileable/TX_Floortile_02a_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Tileable/TX_Floortile_02a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Tileable/TX_Floortile_02a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Band_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Band_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Band_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bangle_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bangle_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bangle_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bangle_01b_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bangle_01b_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bangle_01b_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bowl_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bowl_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bowl_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Bowl_01b_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chalice_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chalice_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chalice_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chalice_02a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chalice_02a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chalice_02a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chalice_02b_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chalice_02b_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chest_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chest_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chest_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chest_01b_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chest_01b_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chest_01b_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chest_02a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chest_02a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Chest_02a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_ClayPot_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_ClayPot_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_ClayPot_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_ClayPot_02a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_ClayPot_02a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_ClayPot_02a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_ClayPot_03a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_ClayPot_03a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_ClayPot_03a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coal_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coal_01a_EMM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coal_01a_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coal_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coal_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_CoinMaterial_01d_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coin_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coin_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coin_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coin_02a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coin_02a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coin_02a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01a_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01b_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01b_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01b_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01c_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01c_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Coins_01c_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Crown_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Crown_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Crown_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Dagger_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Dagger_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Dagger_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Gems_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Gems_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Gems_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_GoldBar_02a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_GoldBar_02a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_GoldBar_02a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Helmet_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Helmet_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Helmet_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Map_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Map_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Map_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Necklace_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Necklace_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Necklace_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_OrnateChest_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_OrnateChest_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_OrnateChest_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_OrnateChest_01b_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_OrnateChest_01b_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_OrnateChest_01b_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Pearls_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Pearls_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Pearls_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Ring_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Ring_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Ring_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_SandMaterial_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_SandMaterial_01a_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_SandMaterial_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_SandMaterial_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Shield_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Shield_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Shield_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Statue_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Statue_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Statue_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Statue_02a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Statue_02a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Statue_02a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Sword_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Sword_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Sword_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Torch_01_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Torch_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Torch_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Urn_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Urn_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Urn_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Urn_02_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Urn_02_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Urn_02_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Urn_04a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Urn_04a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_Urn_04a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_WaterPot_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_WaterPot_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Unique/TX_WaterPot_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Backdrop_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Backdrop_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Cloth_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Cube_01a_CUBE.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Fill_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Fill_01a_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Fill_01a_NRM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Fill_01a_RMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Fire_01a_ALB.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Glass_01a_M.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_LUT_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Microdetail_01a_M.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_Noise_01a_M.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/Textures/Utility/TX_SandMask_01a_M.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/AncientTreasures/VFX/P_Fire_01a.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_PickupWeight.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Door.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/SplineMovePlatform.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Maps/LabRoom1.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Materials/AutoLandRock.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Materials/AutoLandRock_Inst.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Materials/Functions/GrassAuto.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Materials/Functions/RockAuto.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Materials/Weight.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Meshes/.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Meshes/model.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Meshes/model_Circle.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Meshes/model_Sphere.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_AO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_AO.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_albedo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_albedo.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_metallic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_metallic.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_normal.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_roughness.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/DefaultMaterial_roughness.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/ItemIcons/Rock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/ItemIcons/Rock.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Textures/ItemIcons/Weight.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/UI/Inventory.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/UI/W_Dialogue.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/HotReload.state" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.cpp.obj.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.cpp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.gen.cpp.obj.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.gen.cpp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.cpp.obj.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.cpp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.gen.cpp.obj.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.gen.cpp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.cpp.obj.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.cpp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.gen.cpp.obj.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.gen.cpp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0449.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0449.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0449.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0449.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0642.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0642.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0642.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0642.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0841.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0841.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0841.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0841.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0902.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0902.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0902.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0902.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-4207.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-4207.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-4207.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-4207.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-5956.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-5956.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-5956.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-5956.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-8877.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-8877.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-8877.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-8877.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-9329.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-9329.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-9329.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-9329.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Interact.gen.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Interact.generated.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Pickup.gen.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Pickup.generated.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/PickupWeight.gen.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/PickupWeight.generated.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Input.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD-0001.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension-0001.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension-0001.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink-0001.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension-0001.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Default.rc2.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Definitions.RiderBlueprintExtension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/LiveCodingInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Module.RiderBlueprintExtension.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Module.RiderBlueprintExtension.cpp.obj.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Module.RiderBlueprintExtension.cpp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/Default.rc2.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/Definitions.RiderGameControlExtension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/LiveCodingInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/RiderGameControlExtension.cpp.obj.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/RiderGameControlExtension.cpp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Definitions.RiderLink.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Default.rc2.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Definitions.RiderLoggingExtension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/LiveCodingInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Module.RiderLoggingExtension.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Module.RiderLoggingExtension.cpp.obj.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Module.RiderLoggingExtension.cpp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/Private/BlueprintProvider.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/Private/RiderBlueprintExtension.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/Public/BlueprintProvider.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/Public/RiderBlueprintExtension.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/RiderBlueprintExtension.Build.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControlExtension/Private/RiderGameControlExtension.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControlExtension/Public/RiderGameControlExtension.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControlExtension/RiderGameControlExtension.Build.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderLoggingExtension.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderLoggingExtension.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderOutputDevice.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderOutputDevice.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/RiderLoggingExtension.Build.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/BP_Zilly_Auto2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/BP_Zilly_Auto5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BP_PickupWeight_Auto2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/Door_Auto2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/MyTilePuzzle_Auto7.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto7.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto1.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto2.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto3.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto4.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto5.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto6.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto7.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto8.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Materials/AutoLandRock_Auto1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Materials/AutoLandRock_Inst_Auto2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Meshes/model_Circle_Auto2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Meshes/model_Sphere_Auto2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Sunset/Textures/Cobblestone/T_floor_pattern_01_AO_Mat_Auto1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Sunset/Textures/Cobblestone/T_floor_pattern_01_COLOR_Mat_Auto1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Sunset/Textures/Floor/T_floor_tiles_06_Mat_Auto1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/Inventory_Auto1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/Inventory_Auto2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/Inventory_Auto3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/Inventory_Auto4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/W_Dialogue_Auto3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-00CED7654F22758CB26A35924DC3C893/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-01B50EB94625114318DCCCA400CC094C/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-180822144AAE22980470F6BA4C84AA54/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-1BB71DEE429F49527826DB9B3E97ADF8/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-307D48C9494E4968AFCCED9C4D544579/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-3584DAE74A400A566892A1ABE1471265/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-3839CAA445C96F2E7942CB8C25D1AAE5/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-3B4E2F3E4B80F41C003F21BD78508491/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-40B61E704C2505D3D2992D98017CC496/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-41721E3242CCE3FB87A9D8A93C2F86DB/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-4CE914AF4C5E5BB3974212A05F6C6884/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-4D0794284A065B62642536B011397073/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-59C5A3E14D9F8D129BA4CD92838A48D9/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-61B52AB64DA0CE6A6EFF44AA06F83F93/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-636050E747C0DB77EB72B48E18BE3074/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-6452E592420BC0449C31ECA02C313EE9/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-6CA2C5304C13526145D6059942B05C3C/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-80B5EB4D4F7D0AC21F4AD5A351025C13/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-84ADE5EB4F06E2D8EEA937A0B0A9661D/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-890588F345EE59CC36A740874DA9D19F/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-8B232E914AFC6DC9F26B6293B5F2EBBB/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-923678F44E112F324917EA92739F6952/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-9594FF2449228A9C29109F96A26EEDF7/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-9AB172E04B9A2426616EFEAC7E129A72/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A04B74C84DC60E40D4506B9C55B1A31D/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A3FA220D46A487BE6614F49AAC67E61E/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A881A0214C95F2B75CF871913ECAFA57/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-ACAA49504275100176FEABB290A98EEB/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-AD9DD5C74400809B9AA6EA94472C7471/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-BCCE17EE4460D57D28DC89A1F9E8052D/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-BEA35A2640DDE2927B29BDA9A4AB2EA9/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-CF68D3CE475E9DA3507737A796149DDB/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D05FD96D428ECCEC4832A6A1B95C26A7/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D128E3BB4553D711F3F2CAA3F24A07F5/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D294B8394C59E37544F5F385BBD372ED/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D55D40E044BE3C4C9FF0E5AE5F0FCAB6/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D6512E6A4CC04D2242C818A79DF69A86/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-DEF21CB1448FD271AADA77A7FFBC439A/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-E3D52588491C3453337BAC858E40B413/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-EFA42C9441470312DD0538B418AE57C3/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-F9069B564AABD3A4894046A9168699A9/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/WorldState/3639199531.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/WorldState/60483715.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7C84797248BF42C34A10C5AA8FED5221_0000/CrashContext.runtime-xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7C84797248BF42C34A10C5AA8FED5221_0000/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7C84797248BF42C34A10C5AA8FED5221_0000/Trials_2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-7C84797248BF42C34A10C5AA8FED5221_0000/UE4Minidump.dmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-10.48.05.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-10.52.50.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-10.55.43.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-10.57.04.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-11.30.08.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-11.43.55.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-11.44.50.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-11.53.51.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-12.11.01.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-12.13.10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials_2-backup-2022.06.15-11.02.28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.15-12.41.19.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Trials/Private/Interact.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Trials/Private/Pickup.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Trials/Private/PickupWeight.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Trials/Public/Interact.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Trials/Public/Pickup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Trials/Public/PickupWeight.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprint.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControl.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLogging.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderShaderInfoDump.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/Definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/Definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/Definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/Definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/Private/BlueprintProvider.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/Private/RiderBlueprint.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/Public/BlueprintProvider.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/Public/RiderBlueprint.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/RiderBlueprint.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControl/Private/RiderGameControl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControl/Public/RiderGameControl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControl/RiderGameControl.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderLogging.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderLogging.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderOutputDevice.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderOutputDevice.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/RiderLogging.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/BP_Zilly_Auto3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-1AA5A5EA4BB1C6465F8B7398E15C94C4/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-2548A6944C25E803B963A3ABFCA08DEA/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-50D276D84663E03AF3F1949C2CE58D44/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-77055D5C4348CBA62AD41194D543ADF1/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-976FE08F405E25CE32E0D1831335DE1D/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.25-09.32.43.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.29-12.11.30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.29-13.57.41.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.29-14.41.41.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.29-14.44.36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.22-15.55.55.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Trials/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trials/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/TrialsEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/TrialsEditor.target" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Trials.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Trials.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BP_Zilly.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_Zilly.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_PickupWeight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_PickupWeight.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_PressurePlate.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_PressurePlate.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/MovingPlatForm.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/MovingPlatForm.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/FirstLevel.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Materials/BasicMat_Inst.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Materials/BasicMat_Inst.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Materials/PlateMaterial_Inst1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Materials/PlateMaterial_Inst1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Meshes/01_-_Default.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Rock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Rock.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Door.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Door.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/LabRoom1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/LabRoom1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Meshes/LockCombination_Tumbler.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Meshes/LockCombination_Tumbler.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/W_Dialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/W_Dialogue.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/AssetRegistryCache/fe18b0c9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/AssetRegistryCache/fe18b0c9.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/TrialsModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/TrialsModuleRules.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/TrialsModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/TrialsModuleRulesManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/HotReload.state" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Makefile.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Metadata-HotReload.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Metadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/Metadata.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/TrialsEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TrialsEditor/Development/TrialsEditor.uhtmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" afterDir="false" />
@@ -618,6 +77,18 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/FenceSpline.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/FenceSpline.gen.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/FenceSpline.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/FenceSpline.gen.cpp.obj.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/FenceSpline.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/FenceSpline.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Interact.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Pickup.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PickupWeight.gen.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PressurePlate.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PressurePlate.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PressurePlate.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PressurePlate.cpp.obj.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PressurePlate.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/PressurePlate.cpp.txt" afterDir="false" />
@@ -660,10 +131,6 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/TrialsGameModeBase.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/TrialsGameModeBase.gen.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/TrialsGameModeBase.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/TrialsGameModeBase.gen.cpp.obj.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/TrialsGameModeBase.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/TrialsGameModeBase.gen.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0001.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0001.dll.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0001.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0001.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0001.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0001.lib.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0001.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials-0001.suppressed.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials.dll.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials.dll.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/UE4Editor-Trials.exp" afterDir="false" />
@@ -676,9 +143,12 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Zilly.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Zilly.gen.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Zilly.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Zilly.gen.cpp.obj.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Zilly.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Trials/Zilly.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Interact.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Interact.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Pickup.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Pickup.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Pickup.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Pickup.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/PickupWeight.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/PickupWeight.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/PressurePlate.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/PressurePlate.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/TilePiece.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/TilePiece.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/TilePiece.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/TilePiece.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/PressurePlate.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/PressurePlate.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/TilePuzzle.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/TilePuzzle.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/TilePuzzle.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/TilePuzzle.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Timestamp" afterDir="false" />
@@ -686,6 +156,7 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Zilly.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Zilly.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Zilly.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Trials/Zilly.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Input.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Input.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/Trials.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/Trials.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE4.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/Trials.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/Trials.vcxproj" afterDir="false" />
@@ -695,12 +166,16 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.Trials.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.Trials.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD-0001.pdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprint.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControl.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension-0001.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension-0001.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink-0001.pdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLogging.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderShaderInfoDump.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension-0001.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension.pdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor.modules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/ActiveSocket.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/ActiveSocket.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/ActiveSocket.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/ActiveSocket.cpp.txt" afterDir="false" />
@@ -787,6 +262,14 @@
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/SocketWire.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/SocketWire.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/SynchronousScheduler.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/SynchronousScheduler.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/SynchronousScheduler.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/SynchronousScheduler.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.suppressed.exp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD.dll.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD.lib.response" afterDir="false" />
@@ -817,32 +300,48 @@
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/thirdparty.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/thirdparty.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/thread_util.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/thread_util.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/thread_util.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/thread_util.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/Default.rc2.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/Definitions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/LiveCodingInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/Module.RiderBlueprint.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/Module.RiderBlueprint.cpp.obj.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/Module.RiderBlueprint.cpp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/UE4Editor-RiderBlueprint.dll.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/UE4Editor-RiderBlueprint.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/UE4Editor-RiderBlueprint.lib.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprint/UE4Editor-RiderBlueprint.suppressed.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/Default.rc2.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/Definitions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/LiveCodingInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/RiderGameControl.cpp.obj.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/RiderGameControl.cpp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/UE4Editor-RiderGameControl.dll.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/UE4Editor-RiderGameControl.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/UE4Editor-RiderGameControl.lib.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControl/UE4Editor-RiderGameControl.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Default.rc2.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Definitions.RiderBlueprintExtension.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/LiveCodingInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Module.RiderBlueprintExtension.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Module.RiderBlueprintExtension.cpp.obj.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/Module.RiderBlueprintExtension.cpp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/Default.rc2.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/Definitions.RiderGameControlExtension.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/LiveCodingInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/RiderGameControlExtension.cpp.obj.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/RiderGameControlExtension.cpp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension.suppressed.exp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintFunction.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintFunction.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintFunction.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintFunction.Generated.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintHighlighter.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintHighlighter.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintHighlighter.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintHighlighter.Generated.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintReference.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintReference.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintReference.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/BlueprintReference.Generated.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Definitions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Definitions.RiderLink.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/EmptyScriptCallStack.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/EmptyScriptCallStack.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/EmptyScriptCallStack.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/EmptyScriptCallStack.Generated.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/IScriptCallStack.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/IScriptCallStack.Generated.cpp.obj.response" afterDir="false" />
@@ -853,12 +352,10 @@
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/IScriptMsg.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/IScriptMsg.Generated.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/IScriptMsg_Unknown.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/IScriptMsg_Unknown.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/IScriptMsg_Unknown.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/IScriptMsg_Unknown.Generated.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/LiveCodingInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/LogMessageInfo.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/LogMessageInfo.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/LogMessageInfo.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/LogMessageInfo.Generated.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp.obj.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp.old" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/Module.RiderLink.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/NotificationType.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/NotificationType.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/NotificationType.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/NotificationType.Generated.cpp.txt" afterDir="false" />
@@ -892,11 +389,17 @@
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/StringRange.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/StringRange.Generated.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UClass.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UClass.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UClass.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UClass.Generated.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.suppressed.exp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.dll.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.dll.response.old" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.lib.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.lib.response.old" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink.suppressed.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Library.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Library.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Library.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Library.Generated.cpp.txt" afterDir="false" />
@@ -904,30 +407,24 @@
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UnableToDisplayScriptCallStack.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UnableToDisplayScriptCallStack.Generated.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UnrealLogEvent.Generated.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UnrealLogEvent.Generated.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UnrealLogEvent.Generated.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UnrealLogEvent.Generated.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/instantiations_RdEditorRoot.cpp.obj.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/instantiations_RdEditorRoot.cpp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/instantiations_UE4Library.cpp.obj.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/instantiations_UE4Library.cpp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/Default.rc2.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/Definitions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/LiveCodingInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/Module.RiderLogging.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/Module.RiderLogging.cpp.obj.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/Module.RiderLogging.cpp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/UE4Editor-RiderLogging.dll.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/UE4Editor-RiderLogging.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/UE4Editor-RiderLogging.lib.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLogging/UE4Editor-RiderLogging.suppressed.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/Default.rc2.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/Definitions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/LiveCodingInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/RiderShaderInfoDump.cpp.obj.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/RiderShaderInfoDump.cpp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/UE4Editor-RiderShaderInfoDump.dll.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/UE4Editor-RiderShaderInfoDump.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/UE4Editor-RiderShaderInfoDump.lib.response" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderShaderInfoDump/UE4Editor-RiderShaderInfoDump.suppressed.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Default.rc2.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Definitions.RiderLoggingExtension.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/LiveCodingInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Module.RiderLoggingExtension.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Module.RiderLoggingExtension.cpp.obj.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/Module.RiderLoggingExtension.cpp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.suppressed.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension.dll.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension.lib.response" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension.suppressed.exp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/RiderLink.uplugin" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/RiderLink.uplugin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/RD.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/RD.Build.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableList.h" afterDir="false" />
@@ -949,14 +446,14 @@
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format-inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format-inl.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/fmt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/fmt.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/Private/BlueprintProvider.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/Private/RiderBlueprint.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/Public/BlueprintProvider.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/Public/RiderBlueprint.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprint/RiderBlueprint.Build.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControl/Private/RiderGameControl.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControl/Public/RiderGameControl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControl/RiderGameControl.Build.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/Private/BlueprintProvider.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/Private/RiderBlueprintExtension.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/Public/BlueprintProvider.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/Public/RiderBlueprintExtension.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderBlueprintExtension/RiderBlueprintExtension.Build.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControlExtension/Private/RiderGameControlExtension.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControlExtension/Public/RiderGameControlExtension.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderGameControlExtension/RiderGameControlExtension.Build.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp" afterDir="false" />
@@ -1013,45 +510,85 @@
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/RiderLink.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLink/RiderLink.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderLogging.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderLogging.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderOutputDevice.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderOutputDevice.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLogging/RiderLogging.Build.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.Build.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderShaderInfoDump/RiderShaderInfoDump.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderLoggingExtension.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderLoggingExtension.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderOutputDevice.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderOutputDevice.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/RiderLoggingExtension.Build.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BP_PressurePlate_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BP_PressurePlate_Auto1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto1.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto3.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto4.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto4.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto5.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto5.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto6.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto6.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto8.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/FirstLevel_Auto8.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-1E9B9BC247E48D1730A511B2839532BB/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-5C015AE34AE06F99112A9A9A14857BA2/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-6B6EC888452C089B9EF7999B3E80A7B5/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-86ACF6974DD1E63FC96C94A50E1BA52F/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto3.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto4.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto4.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto5.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Maps/LabRoom1_Auto5.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/Inventory_Auto4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/UI/Inventory_Auto4.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-00CED7654F22758CB26A35924DC3C893/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-01B50EB94625114318DCCCA400CC094C/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-180822144AAE22980470F6BA4C84AA54/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-1BB71DEE429F49527826DB9B3E97ADF8/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-307D48C9494E4968AFCCED9C4D544579/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-3584DAE74A400A566892A1ABE1471265/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-3839CAA445C96F2E7942CB8C25D1AAE5/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-3B4E2F3E4B80F41C003F21BD78508491/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-40B61E704C2505D3D2992D98017CC496/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-41721E3242CCE3FB87A9D8A93C2F86DB/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-4CE914AF4C5E5BB3974212A05F6C6884/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-4D0794284A065B62642536B011397073/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-59C5A3E14D9F8D129BA4CD92838A48D9/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-61B52AB64DA0CE6A6EFF44AA06F83F93/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-636050E747C0DB77EB72B48E18BE3074/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-6452E592420BC0449C31ECA02C313EE9/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-6CA2C5304C13526145D6059942B05C3C/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-80B5EB4D4F7D0AC21F4AD5A351025C13/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-84ADE5EB4F06E2D8EEA937A0B0A9661D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-890588F345EE59CC36A740874DA9D19F/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-8B232E914AFC6DC9F26B6293B5F2EBBB/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-923678F44E112F324917EA92739F6952/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-9594FF2449228A9C29109F96A26EEDF7/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-9AB172E04B9A2426616EFEAC7E129A72/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A04B74C84DC60E40D4506B9C55B1A31D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A3FA220D46A487BE6614F49AAC67E61E/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A881A0214C95F2B75CF871913ECAFA57/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-ACAA49504275100176FEABB290A98EEB/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-AD9DD5C74400809B9AA6EA94472C7471/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-BCCE17EE4460D57D28DC89A1F9E8052D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-BEA35A2640DDE2927B29BDA9A4AB2EA9/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-CF68D3CE475E9DA3507737A796149DDB/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D05FD96D428ECCEC4832A6A1B95C26A7/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D128E3BB4553D711F3F2CAA3F24A07F5/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D294B8394C59E37544F5F385BBD372ED/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D55D40E044BE3C4C9FF0E5AE5F0FCAB6/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-D6512E6A4CC04D2242C818A79DF69A86/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-DEF21CB1448FD271AADA77A7FFBC439A/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-E3D52588491C3453337BAC858E40B413/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-EFA42C9441470312DD0538B418AE57C3/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-F9069B564AABD3A4894046A9168699A9/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.08-15.39.30.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.10-13.44.18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.10-13.50.01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.11-09.50.02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.13-11.54.16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.13-12.01.13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.13-17.57.50.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-10.48.05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-10.52.50.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-10.55.43.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-10.57.04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-11.30.08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-11.43.55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-11.44.50.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-11.53.51.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-12.11.01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials-backup-2022.06.18-12.13.10.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Trials.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Trials_2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Trials_2-backup-2022.06.15-11.02.28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Trials/Private/Interact.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Private/Interact.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Trials/Private/Pickup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Private/Pickup.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Trials/Private/PickupWeight.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Private/PickupWeight.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Trials/Private/PressurePlate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Private/PressurePlate.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Trials/Private/TilePiece.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Private/TilePiece.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Trials/Private/TilePuzzle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Private/TilePuzzle.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Trials/Private/Zilly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Private/Zilly.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Trials/Public/Interact.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Public/Interact.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Trials/Public/Pickup.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Public/Pickup.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Trials/Public/PressurePlate.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Public/PressurePlate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Trials/Public/TilePiece.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Public/TilePiece.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Trials/Public/TilePuzzle.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Public/TilePuzzle.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Trials/Public/Zilly.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Trials/Public/Zilly.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trials.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Trials.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1072,9 +609,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/Trials/Private/TilePiece.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Trials/Private/TilePuzzle.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TrialsEditor.Target.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Trials/Public/TilePiece.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Trials/Public/TilePuzzle.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TrialsEditor.Target.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -1087,12 +624,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34988797" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunManager" selected="C++ Project.Trials">
     <configuration name="Trials" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -1450,6 +987,14 @@
       <workItem from="1655477328091" duration="5523000" />
       <workItem from="1655547406023" duration="6593000" />
       <workItem from="1655555183185" duration="4292000" />
+      <workItem from="1655909169241" duration="1305000" />
+      <workItem from="1655981347485" duration="20762000" />
+      <workItem from="1656011253832" duration="5234000" />
+      <workItem from="1656018667530" duration="1547000" />
+      <workItem from="1656066146556" duration="4313000" />
+      <workItem from="1656148924937" duration="367000" />
+      <workItem from="1656149689776" duration="1523000" />
+      <workItem from="1656503386995" duration="4539000" />
     </task>
     <servers />
   </component>
@@ -1469,7 +1014,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

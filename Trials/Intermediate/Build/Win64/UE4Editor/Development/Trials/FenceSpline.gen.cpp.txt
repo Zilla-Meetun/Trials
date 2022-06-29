@@ -1,9 +1,9 @@
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-K:\Mastered\Trials\Trials\Source\Trials/Public/FenceSpline.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials/Public/FenceSpline.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/SplineComponent.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SplineComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\Engine\Classes\Components/SplineMeshComponent.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SplineMeshComponent.generated.h
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\FenceSpline.generated.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\FenceSpline.generated.h

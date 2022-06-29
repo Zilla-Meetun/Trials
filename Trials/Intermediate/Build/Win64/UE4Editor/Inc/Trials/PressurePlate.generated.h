@@ -19,8 +19,6 @@ struct FHitResult;
 #define Trials_Source_Trials_Public_PressurePlate_h_14_SPARSE_DATA
 #define Trials_Source_Trials_Public_PressurePlate_h_14_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execPlateFinish); \
-	DECLARE_FUNCTION(execPlateUpdate); \
 	DECLARE_FUNCTION(execOnPlateEndOverlap); \
 	DECLARE_FUNCTION(execOnPlateOverlap); \
 	DECLARE_FUNCTION(execCalculateMass);
@@ -28,8 +26,6 @@ struct FHitResult;
 
 #define Trials_Source_Trials_Public_PressurePlate_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execPlateFinish); \
-	DECLARE_FUNCTION(execPlateUpdate); \
 	DECLARE_FUNCTION(execOnPlateEndOverlap); \
 	DECLARE_FUNCTION(execOnPlateOverlap); \
 	DECLARE_FUNCTION(execCalculateMass);

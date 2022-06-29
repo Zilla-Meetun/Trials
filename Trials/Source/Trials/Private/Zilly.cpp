@@ -3,8 +3,6 @@
 
 #include "Zilly.h"
 
-#
-
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -64,26 +62,67 @@ void AZilly::BeginPlay()
 	LeftFistCollider->OnComponentHit.AddDynamic(this, &AZilly::OnAttackHit);
 	RightFistCollider->OnComponentHit.AddDynamic(this, &AZilly::OnAttackHit);
 
+	
+	SetItemUI[0] = &AZilly::SetItem1UI;	
+	SetItemUI[1] = &AZilly::SetItem2UI;
+	SetItemUI[2] = &AZilly::SetItem3UI;
+	SetItemUI[3] = &AZilly::SetItem4UI;
+	SetItemUI[4] = &AZilly::SetItem5UI;
+	SetItemUI[5] = &AZilly::SetItem6UI;
+	SetItemUI[6] = &AZilly::SetItem7UI;
+	SetItemUI[7] = &AZilly::SetItem8UI;
+	SetItemUI[8] = &AZilly::SetItem9UI;
+	SetItemUI[9] = &AZilly::SetItem10UI;
+	
+}
+void AZilly::UseItem()
+{
+	if(!Inventory.Contains(ItemIndex))
+		return;
+	APickup* It = Inventory[ItemIndex];
+	Inventory.Remove(ItemIndex);
+	(this->*(SetItemUI[ItemIndex]))(nullptr);
+	
+	It->Use(InteractionZone->GetComponentLocation()+FVector::ForwardVector*20);
+	
 }
 
 void AZilly::AddToInventory()
 {
-	if(NearestItem)
+	if(!NearestItem)
 		return;
-	Inventory.Add(NearestItem);
-	NearestItem->Pickup();
-	PrintInventory();
+	const UTexture* Tex = NearestItem->Icon;
+	int I = 0;
+	while(Inventory.Contains(I) && I < 10)
+		I++;
+	if(I>=10)
+	{
+		//UE_LOG(LogTemp, Warning, TEXT("Too many Items"))
+		this->UseItem();
+		Inventory.Add(ItemIndex, NearestItem);
+		(this->*(SetItemUI[ItemIndex]))(Tex);
+	}
+	else
+	{
+		Inventory.Add(I, NearestItem);
+		NearestItem->Pickup(I);
+		(this->*(SetItemUI[I]))(Tex);
+	}
 	NearestItem = nullptr;
-	VarFunc->Bind();
 }
 
-
-void AZilly::SetNearestItem(APickup* Item)
+void AZilly::SetNearestItem(APickup* Item, const bool bAdd)
 {
-	if(NearestItem == Item)
-		NearestItem = nullptr;
-	else
+	if((!bAdd && NearestItem != Item) ||(bAdd && NearestItem == Item))
+		return;
+	
+	if(bAdd && NearestItem !=Item)
 		NearestItem = Item;
+	else
+	{
+		NearestItem = nullptr;
+	}
+	
 }
 
 
@@ -113,14 +152,12 @@ void AZilly::AttackInput()
 
 
 
-void AZilly::UseItem(const float Key)
+void AZilly::ChangeItem(float Value)
 {
-	UE_LOG(LogTemp, Warning, TEXT("InputWorks"))
-	if(Key == 1.0f && Inventory.IsValidIndex(0))
-	{
-		UE_LOG(LogTemp, Warning, TEXT("1 Is Pressed"))
-		Inventory[0]->Use(InteractionZone->GetComponentLocation()+(FVector::ForwardVector*10));
-	}
+	if(Value == 0)
+		return;
+	ItemIndex = static_cast<int>(Value)-1;
+	UpdateHighlightUI();
 }
 
 void AZilly::OnAttackHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
@@ -187,17 +224,17 @@ void AZilly::Tick(float DeltaTime)
 void AZilly::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
+	
 	PlayerInputComponent->BindAxis("MoveForward", this, &AZilly::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AZilly::MoveRight);
 	
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-
+	
 	PlayerInputComponent->BindAxis("TurnRate", this, &AZilly::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AZilly::LookUpRate);
 
-	PlayerInputComponent->BindAxis("UseItem", this, &AZilly::UseItem);
+	PlayerInputComponent->BindAxis("ChangeItem", this, &AZilly::ChangeItem);
 	
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
@@ -209,6 +246,7 @@ void AZilly::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AZilly::StartCrouch);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AZilly::EndCrouch);
 
+	PlayerInputComponent->BindAction("UseItem", IE_Pressed, this, &AZilly::UseItem);
 	PlayerInputComponent->BindAction("Pickup", IE_Pressed, this, &AZilly::AddToInventory);
 	
 }

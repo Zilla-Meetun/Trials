@@ -32,7 +32,6 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 	UBoxComponent* PlateCollision = nullptr;
 	
-	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Activation")
 	float ActivatedWeight = 50;
 	
@@ -43,7 +42,7 @@ public:
 	TArray<AActor*> OverlappingActors;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Activation")
-	float MaxZOffset = 0.1f;
+	float Offset = 0.1f;
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category="Debug")
 	float CurrentOffset = 0;
@@ -69,11 +68,6 @@ public:
 	UFUNCTION()
 	void OnPlateEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	UFUNCTION()
-	void PlateUpdate(float Value);
-
-	UFUNCTION()
-	void PlateFinish(float Value);
 	
 	UFUNCTION(BlueprintImplementableEvent)
 	void RaisePlate();

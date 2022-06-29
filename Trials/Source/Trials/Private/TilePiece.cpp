@@ -50,7 +50,7 @@ void ATilePiece::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 
-	//sets up collision 
+	//sets up collision
 	TileCollision->OnComponentBeginOverlap.AddDynamic(this, &ATilePiece::OnTileOverlap);
 
 	// makes and sets dynamic material
@@ -79,7 +79,7 @@ void ATilePiece::BeginPlay()
 void ATilePiece::RegisterAllComponents()
 {
 	Super::RegisterAllComponents();
-	
+	NewRoot->RegisterComponentWithWorld(GetWorld());
 	TileMesh->RegisterComponentWithWorld(GetWorld());
 	TileCollision->RegisterComponentWithWorld(GetWorld());
 }

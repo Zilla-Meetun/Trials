@@ -29,9 +29,10 @@ void EmptyLinkFunctionForGeneratedCodeInteract() {}
 	}
 	DEFINE_FUNCTION(IInteract::execPickup)
 	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_ItemIndex);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->Pickup();
+		P_THIS->Pickup(Z_Param_ItemIndex);
 		P_NATIVE_END;
 	}
 	void UInteract::StaticRegisterNativesUInteract()
@@ -45,17 +46,35 @@ void EmptyLinkFunctionForGeneratedCodeInteract() {}
 	}
 	struct Z_Construct_UFunction_UInteract_Pickup_Statics
 	{
+		struct Interact_eventPickup_Parms
+		{
+			int32 ItemIndex;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ItemIndex_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ItemIndex;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UInteract_Pickup_Statics::NewProp_ItemIndex_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UInteract_Pickup_Statics::NewProp_ItemIndex = { "ItemIndex", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Interact_eventPickup_Parms, ItemIndex), METADATA_PARAMS(Z_Construct_UFunction_UInteract_Pickup_Statics::NewProp_ItemIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UInteract_Pickup_Statics::NewProp_ItemIndex_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInteract_Pickup_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInteract_Pickup_Statics::NewProp_ItemIndex,
+	};
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UInteract_Pickup_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/Interact.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UInteract_Pickup_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInteract, nullptr, "Pickup", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UInteract_Pickup_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UInteract_Pickup_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UInteract_Pickup_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInteract, nullptr, "Pickup", nullptr, nullptr, sizeof(Interact_eventPickup_Parms), Z_Construct_UFunction_UInteract_Pickup_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInteract_Pickup_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UInteract_Pickup_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UInteract_Pickup_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UInteract_Pickup()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -116,7 +135,7 @@ void EmptyLinkFunctionForGeneratedCodeInteract() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Trials,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UInteract_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UInteract_Pickup, "Pickup" }, // 570740386
+		{ &Z_Construct_UFunction_UInteract_Pickup, "Pickup" }, // 1930384660
 		{ &Z_Construct_UFunction_UInteract_Use, "Use" }, // 3617068371
 	};
 #if WITH_METADATA
@@ -151,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeInteract() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInteract, 3768394087);
+	IMPLEMENT_CLASS(UInteract, 4056543686);
 	template<> TRIALS_API UClass* StaticClass<UInteract>()
 	{
 		return UInteract::StaticClass();

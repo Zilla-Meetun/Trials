@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodePickupWeight() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickupWeight, 1583764799);
+	IMPLEMENT_CLASS(APickupWeight, 3849160857);
 	template<> TRIALS_API UClass* StaticClass<APickupWeight>()
 	{
 		return APickupWeight::StaticClass();

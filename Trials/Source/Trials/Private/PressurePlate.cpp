@@ -98,15 +98,6 @@ void APressurePlate::OnPlateEndOverlap(UPrimitiveComponent* OverlappedComp, AAct
 	RaisePlate();
 }
 
-void APressurePlate::PlateUpdate(float Value)
-{
-	
-}
-
-void APressurePlate::PlateFinish(float Value)
-{
-}
-
 
 
 

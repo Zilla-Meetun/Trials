@@ -1,17 +1,17 @@
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27Chaos\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-K:\Mastered\Trials\Trials\Source\Trials/Public/PickupWeight.h
-K:\Mastered\Trials\Trials\Source\Trials\Public\Pickup.h
-K:\Mastered\Trials\Trials\Source\Trials\Public\Interact.h
-K:\Mastered\Trials\Trials\Source\Trials\Public\../../../Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials/Public/PickupWeight.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials\Public\Pickup.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials\Public\Interact.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials\Public\../../../Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\io.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_io.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winsock2.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\windows.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE\excpt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\excpt.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\windef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\minwindef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h
@@ -218,8 +218,8 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\qos.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\Ws2tcpip.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ws2ipdef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\in6addr.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\Host.h
-K:\Mastered\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\StatTimer.h
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\Interact.generated.h
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\Pickup.generated.h
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\PickupWeight.generated.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\Host.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\StatTimer.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\Interact.generated.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\Pickup.generated.h
+C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\PickupWeight.generated.h

@@ -36,7 +36,7 @@ void EmptyLinkFunctionForGeneratedCodeTilePuzzle() {}
 		return EPuzzleSetUp_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EPuzzleSetUp(EPuzzleSetUp_StaticEnum, TEXT("/Script/Trials"), TEXT("EPuzzleSetUp"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Trials_EPuzzleSetUp_Hash() { return 303233282U; }
+	uint32 Get_Z_Construct_UEnum_Trials_EPuzzleSetUp_Hash() { return 975722895U; }
 	UEnum* Z_Construct_UEnum_Trials_EPuzzleSetUp()
 	{
 #if WITH_HOT_RELOAD
@@ -50,11 +50,14 @@ void EmptyLinkFunctionForGeneratedCodeTilePuzzle() {}
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
 				{ "NoSetup", (int64)NoSetup },
 				{ "Adjacent", (int64)Adjacent },
+				{ "AllAdjacent", (int64)AllAdjacent },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
-				{ "Adjacent.DisplayName", "Tiles linked to adjacent tiles" },
+				{ "Adjacent.DisplayName", "Tiles linked to adjacent tiles not diagonly" },
 				{ "Adjacent.Name", "Adjacent" },
+				{ "AllAdjacent.DIsplayName", "Tiles linked to adjacent and diagonaly tiles" },
+				{ "AllAdjacent.Name", "AllAdjacent" },
 				{ "ModuleRelativePath", "Public/TilePuzzle.h" },
 				{ "NoSetup.DisplayName", "Tiles have no links" },
 				{ "NoSetup.Name", "NoSetup" },

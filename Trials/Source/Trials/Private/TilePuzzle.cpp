@@ -20,28 +20,33 @@ ATilePuzzle::ATilePuzzle()
 // Called when the game starts or when spawned
 void ATilePuzzle::BeginPlay()
 {
-	Super::BeginPlay();
-	for(int i = 0 ; i <Grid.Num(); i++)
+	Super::BeginPlay();	for(int i = 0 ; i <Grid.Num(); i++)
 	{
 		Grid[i]->RegisterAllComponents();
 		Grid[i]->PostInitializeComponents();
 
 		switch (TileLinks)
 		{
-			
 			case NoSetup:
 				continue;
-			
+			case AllAdjacent:
+				if(Grid.IsValidIndex(i-1-YLength) && i%YLength != 0)
+					Grid[i]->AdjacentTiles.Add(Grid[i-1-YLength]);
+				if(Grid.IsValidIndex(i+1-YLength) && i%YLength != YLength-1)
+					Grid[i]->AdjacentTiles.Add(Grid[i+1-YLength]);
+				if(Grid.IsValidIndex(i-1+YLength)&& i%YLength != 0)
+					Grid[i]->AdjacentTiles.Add(Grid[i-1+YLength]);
+				if(Grid.IsValidIndex(i+1+YLength) && i%YLength != YLength-1)
+					Grid[i]->AdjacentTiles.Add(Grid[i+1+YLength]);
 			case Adjacent:
-			if(Grid.IsValidIndex(i-1) && i%YLength != 0)
-				Grid[i]->AdjacentTiles.Add(Grid[i-1]);
-			if(Grid.IsValidIndex(i+1) && i%YLength != YLength-1)
-				Grid[i]->AdjacentTiles.Add(Grid[i+1]);
-			if(Grid.IsValidIndex(i-YLength))
-				Grid[i]->AdjacentTiles.Add(Grid[i-YLength]);
-			if(Grid.IsValidIndex(i+YLength))
-				Grid[i]->AdjacentTiles.Add(Grid[i+YLength]);
-			
+				if(Grid.IsValidIndex(i-1) && i%YLength != 0)
+					Grid[i]->AdjacentTiles.Add(Grid[i-1]);
+				if(Grid.IsValidIndex(i+1) && i%YLength != YLength-1)
+					Grid[i]->AdjacentTiles.Add(Grid[i+1]);
+				if(Grid.IsValidIndex(i-YLength))
+					Grid[i]->AdjacentTiles.Add(Grid[i-YLength]);
+				if(Grid.IsValidIndex(i+YLength))
+					Grid[i]->AdjacentTiles.Add(Grid[i+YLength]);
 			default:
 				UE_LOG(LogTemp, Warning, TEXT("Added Tile Links"))
 		}
@@ -73,7 +78,7 @@ void ATilePuzzle::OnConstruction(const FTransform& Transform)
 		for(int y = 0 ; y < YLength ; y++)
 		{
 			
-			FString Name =  FString(BaseName + FString::FromInt(y+(x*XLength)));
+			FString Name =  BaseName + FString::FromInt(y+(x*XLength));
 			ATilePiece* Piece =  NewObject<ATilePiece>(this,ATilePiece::StaticClass());//, *Name);
 			
 			Piece->RegisterAllComponents();
@@ -103,6 +108,13 @@ void ATilePuzzle::Destroyed()
 	}
 
 	Grid.Empty();
+}
+
+void ATilePuzzle::PostEditUndo()
+{
+	Super::PostEditUndo();
+
+	
 }
 
 void ATilePuzzle::CheckPuzzleState()

@@ -24,7 +24,7 @@ class TRIALS_API IInteract
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 	UFUNCTION()
-	virtual void Pickup();
+	virtual void Pickup(const int ItemIndex);
 
 	UFUNCTION()
 	virtual void Use(FVector NewLocation);

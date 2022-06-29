@@ -13,8 +13,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeZilly() {}
 // Cross Module References
-	TRIALS_API UEnum* Z_Construct_UEnum_Trials_EAttackType();
+	TRIALS_API UFunction* Z_Construct_UDelegateFunction_Trials_SetImageOne__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Trials();
+	TRIALS_API UEnum* Z_Construct_UEnum_Trials_EAttackType();
 	TRIALS_API UClass* Z_Construct_UClass_AZilly_NoRegister();
 	TRIALS_API UClass* Z_Construct_UClass_AZilly();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
@@ -22,13 +23,35 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	ENGINE_API UClass* Z_Construct_UClass_UTexture_NoRegister();
 	TRIALS_API UClass* Z_Construct_UClass_APickup_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UFunction();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_Trials_SetImageOne__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_Trials_SetImageOne__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_Trials_SetImageOne__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_Trials, nullptr, "SetImageOne__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_Trials_SetImageOne__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Trials_SetImageOne__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_Trials_SetImageOne__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_Trials_SetImageOne__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	static UEnum* EAttackType_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;
@@ -178,17 +201,18 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 	DEFINE_FUNCTION(AZilly::execSetNearestItem)
 	{
 		P_GET_OBJECT(APickup,Z_Param_Item);
+		P_GET_UBOOL(Z_Param_bAdd);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->SetNearestItem(Z_Param_Item);
+		P_THIS->SetNearestItem(Z_Param_Item,Z_Param_bAdd);
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(AZilly::execUseItem)
+	DEFINE_FUNCTION(AZilly::execChangeItem)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_Key);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->UseItem(Z_Param_Key);
+		P_THIS->ChangeItem(Z_Param_Key);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AZilly::execAddToInventory)
@@ -198,10 +222,87 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		P_THIS->AddToInventory();
 		P_NATIVE_END;
 	}
-	static FName NAME_AZilly_PrintInventory = FName(TEXT("PrintInventory"));
-	void AZilly::PrintInventory()
+	DEFINE_FUNCTION(AZilly::execUseItem)
 	{
-		ProcessEvent(FindFunctionChecked(NAME_AZilly_PrintInventory),NULL);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->UseItem();
+		P_NATIVE_END;
+	}
+	static FName NAME_AZilly_SetItem10UI = FName(TEXT("SetItem10UI"));
+	void AZilly::SetItem10UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem10UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem10UI),&Parms);
+	}
+	static FName NAME_AZilly_SetItem1UI = FName(TEXT("SetItem1UI"));
+	void AZilly::SetItem1UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem1UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem1UI),&Parms);
+	}
+	static FName NAME_AZilly_SetItem2UI = FName(TEXT("SetItem2UI"));
+	void AZilly::SetItem2UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem2UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem2UI),&Parms);
+	}
+	static FName NAME_AZilly_SetItem3UI = FName(TEXT("SetItem3UI"));
+	void AZilly::SetItem3UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem3UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem3UI),&Parms);
+	}
+	static FName NAME_AZilly_SetItem4UI = FName(TEXT("SetItem4UI"));
+	void AZilly::SetItem4UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem4UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem4UI),&Parms);
+	}
+	static FName NAME_AZilly_SetItem5UI = FName(TEXT("SetItem5UI"));
+	void AZilly::SetItem5UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem5UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem5UI),&Parms);
+	}
+	static FName NAME_AZilly_SetItem6UI = FName(TEXT("SetItem6UI"));
+	void AZilly::SetItem6UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem6UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem6UI),&Parms);
+	}
+	static FName NAME_AZilly_SetItem7UI = FName(TEXT("SetItem7UI"));
+	void AZilly::SetItem7UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem7UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem7UI),&Parms);
+	}
+	static FName NAME_AZilly_SetItem8UI = FName(TEXT("SetItem8UI"));
+	void AZilly::SetItem8UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem8UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem8UI),&Parms);
+	}
+	static FName NAME_AZilly_SetItem9UI = FName(TEXT("SetItem9UI"));
+	void AZilly::SetItem9UI(const UTexture* Image)
+	{
+		Zilly_eventSetItem9UI_Parms Parms;
+		Parms.Image=Image;
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_SetItem9UI),&Parms);
+	}
+	static FName NAME_AZilly_UpdateHighlightUI = FName(TEXT("UpdateHighlightUI"));
+	void AZilly::UpdateHighlightUI()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AZilly_UpdateHighlightUI),NULL);
 	}
 	void AZilly::StaticRegisterNativesAZilly()
 	{
@@ -211,6 +312,7 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 			{ "AttackEnd", &AZilly::execAttackEnd },
 			{ "AttackInput", &AZilly::execAttackInput },
 			{ "AttackStart", &AZilly::execAttackStart },
+			{ "ChangeItem", &AZilly::execChangeItem },
 			{ "EndCrouch", &AZilly::execEndCrouch },
 			{ "LookUpRate", &AZilly::execLookUpRate },
 			{ "MoveForward", &AZilly::execMoveForward },
@@ -310,6 +412,46 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_AttackStart_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_ChangeItem_Statics
+	{
+		struct Zilly_eventChangeItem_Parms
+		{
+			float Key;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Key_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Key;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_ChangeItem_Statics::NewProp_Key_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AZilly_ChangeItem_Statics::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventChangeItem_Parms, Key), METADATA_PARAMS(Z_Construct_UFunction_AZilly_ChangeItem_Statics::NewProp_Key_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_ChangeItem_Statics::NewProp_Key_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_ChangeItem_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_ChangeItem_Statics::NewProp_Key,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_ChangeItem_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_ChangeItem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "ChangeItem", nullptr, nullptr, sizeof(Zilly_eventChangeItem_Parms), Z_Construct_UFunction_AZilly_ChangeItem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_ChangeItem_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_ChangeItem_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_ChangeItem_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_ChangeItem()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_ChangeItem_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -503,25 +645,363 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AZilly_PrintInventory_Statics
+	struct Z_Construct_UFunction_AZilly_SetItem10UI_Statics
 	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_PrintInventory_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem10UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem10UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem10UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem10UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem10UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem10UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem10UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem10UI_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/Zilly.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_PrintInventory_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "PrintInventory", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_PrintInventory_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_PrintInventory_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AZilly_PrintInventory()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem10UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem10UI", nullptr, nullptr, sizeof(Zilly_eventSetItem10UI_Parms), Z_Construct_UFunction_AZilly_SetItem10UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem10UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem10UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem10UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem10UI()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_PrintInventory_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem10UI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_SetItem1UI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem1UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem1UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem1UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem1UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem1UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem1UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem1UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem1UI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem1UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem1UI", nullptr, nullptr, sizeof(Zilly_eventSetItem1UI_Parms), Z_Construct_UFunction_AZilly_SetItem1UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem1UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem1UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem1UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem1UI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem1UI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_SetItem2UI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem2UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem2UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem2UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem2UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem2UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem2UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem2UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem2UI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem2UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem2UI", nullptr, nullptr, sizeof(Zilly_eventSetItem2UI_Parms), Z_Construct_UFunction_AZilly_SetItem2UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem2UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem2UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem2UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem2UI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem2UI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_SetItem3UI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem3UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem3UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem3UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem3UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem3UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem3UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem3UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem3UI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem3UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem3UI", nullptr, nullptr, sizeof(Zilly_eventSetItem3UI_Parms), Z_Construct_UFunction_AZilly_SetItem3UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem3UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem3UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem3UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem3UI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem3UI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_SetItem4UI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem4UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem4UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem4UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem4UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem4UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem4UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem4UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem4UI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem4UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem4UI", nullptr, nullptr, sizeof(Zilly_eventSetItem4UI_Parms), Z_Construct_UFunction_AZilly_SetItem4UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem4UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem4UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem4UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem4UI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem4UI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_SetItem5UI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem5UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem5UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem5UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem5UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem5UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem5UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem5UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem5UI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem5UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem5UI", nullptr, nullptr, sizeof(Zilly_eventSetItem5UI_Parms), Z_Construct_UFunction_AZilly_SetItem5UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem5UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem5UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem5UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem5UI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem5UI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_SetItem6UI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem6UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem6UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem6UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem6UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem6UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem6UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem6UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem6UI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem6UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem6UI", nullptr, nullptr, sizeof(Zilly_eventSetItem6UI_Parms), Z_Construct_UFunction_AZilly_SetItem6UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem6UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem6UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem6UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem6UI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem6UI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_SetItem7UI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem7UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem7UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem7UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem7UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem7UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem7UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem7UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem7UI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem7UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem7UI", nullptr, nullptr, sizeof(Zilly_eventSetItem7UI_Parms), Z_Construct_UFunction_AZilly_SetItem7UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem7UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem7UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem7UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem7UI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem7UI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_SetItem8UI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem8UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem8UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem8UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem8UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem8UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem8UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem8UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem8UI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem8UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem8UI", nullptr, nullptr, sizeof(Zilly_eventSetItem8UI_Parms), Z_Construct_UFunction_AZilly_SetItem8UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem8UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem8UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem8UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem8UI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem8UI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_SetItem9UI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Image;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem9UI_Statics::NewProp_Image_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetItem9UI_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetItem9UI_Parms, Image), Z_Construct_UClass_UTexture_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem9UI_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem9UI_Statics::NewProp_Image_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetItem9UI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetItem9UI_Statics::NewProp_Image,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetItem9UI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_SetItem9UI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "SetItem9UI", nullptr, nullptr, sizeof(Zilly_eventSetItem9UI_Parms), Z_Construct_UFunction_AZilly_SetItem9UI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem9UI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetItem9UI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetItem9UI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_SetItem9UI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_SetItem9UI_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -530,8 +1010,14 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		struct Zilly_eventSetNearestItem_Parms
 		{
 			APickup* Item;
+			bool bAdd;
 		};
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Item;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bAdd_MetaData[];
+#endif
+		static void NewProp_bAdd_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bAdd;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -539,8 +1025,19 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZilly_SetNearestItem_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventSetNearestItem_Parms, Item), Z_Construct_UClass_APickup_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetNearestItem_Statics::NewProp_bAdd_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	void Z_Construct_UFunction_AZilly_SetNearestItem_Statics::NewProp_bAdd_SetBit(void* Obj)
+	{
+		((Zilly_eventSetNearestItem_Parms*)Obj)->bAdd = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AZilly_SetNearestItem_Statics::NewProp_bAdd = { "bAdd", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(Zilly_eventSetNearestItem_Parms), &Z_Construct_UFunction_AZilly_SetNearestItem_Statics::NewProp_bAdd_SetBit, METADATA_PARAMS(Z_Construct_UFunction_AZilly_SetNearestItem_Statics::NewProp_bAdd_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_SetNearestItem_Statics::NewProp_bAdd_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_SetNearestItem_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetNearestItem_Statics::NewProp_Item,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_SetNearestItem_Statics::NewProp_bAdd,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_SetNearestItem_Statics::Function_MetaDataParams[] = {
@@ -655,37 +1152,41 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AZilly_UseItem_Statics
+	struct Z_Construct_UFunction_AZilly_UpdateHighlightUI_Statics
 	{
-		struct Zilly_eventUseItem_Parms
-		{
-			float Key;
-		};
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Key_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Key;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_UseItem_Statics::NewProp_Key_MetaData[] = {
-		{ "NativeConst", "" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_UpdateHighlightUI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Zilly.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AZilly_UseItem_Statics::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Zilly_eventUseItem_Parms, Key), METADATA_PARAMS(Z_Construct_UFunction_AZilly_UseItem_Statics::NewProp_Key_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_UseItem_Statics::NewProp_Key_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZilly_UseItem_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZilly_UseItem_Statics::NewProp_Key,
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_UpdateHighlightUI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "UpdateHighlightUI", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_UpdateHighlightUI_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_UpdateHighlightUI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AZilly_UpdateHighlightUI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AZilly_UpdateHighlightUI_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AZilly_UseItem_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZilly_UseItem_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/Zilly.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_UseItem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "UseItem", nullptr, nullptr, sizeof(Zilly_eventUseItem_Parms), Z_Construct_UFunction_AZilly_UseItem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_UseItem_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_UseItem_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_UseItem_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AZilly_UseItem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AZilly, nullptr, "UseItem", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AZilly_UseItem_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AZilly_UseItem_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AZilly_UseItem()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -746,21 +1247,12 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ItemIndex_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ItemIndex;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Inventory_Inner;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Inventory_ValueProp;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Inventory_Key_KeyProp;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Inventory_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Inventory;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InventoryMap_ValueProp;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InventoryMap_Key_KeyProp;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InventoryMap_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FMapPropertyParams NewProp_InventoryMap;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VarFunc_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VarFunc;
+		static const UE4CodeGen_Private::FMapPropertyParams NewProp_Inventory;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -774,18 +1266,29 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		{ &Z_Construct_UFunction_AZilly_AttackEnd, "AttackEnd" }, // 290584627
 		{ &Z_Construct_UFunction_AZilly_AttackInput, "AttackInput" }, // 2816294766
 		{ &Z_Construct_UFunction_AZilly_AttackStart, "AttackStart" }, // 930021002
+		{ &Z_Construct_UFunction_AZilly_ChangeItem, "ChangeItem" }, // 2906079391
 		{ &Z_Construct_UFunction_AZilly_EndCrouch, "EndCrouch" }, // 3261849921
 		{ &Z_Construct_UFunction_AZilly_LookUpRate, "LookUpRate" }, // 3073894319
 		{ &Z_Construct_UFunction_AZilly_MoveForward, "MoveForward" }, // 2107021451
 		{ &Z_Construct_UFunction_AZilly_MoveRight, "MoveRight" }, // 1866893022
 		{ &Z_Construct_UFunction_AZilly_OnAttackHit, "OnAttackHit" }, // 814687301
-		{ &Z_Construct_UFunction_AZilly_PrintInventory, "PrintInventory" }, // 3617738896
-		{ &Z_Construct_UFunction_AZilly_SetNearestItem, "SetNearestItem" }, // 2679126389
+		{ &Z_Construct_UFunction_AZilly_SetItem10UI, "SetItem10UI" }, // 1217021133
+		{ &Z_Construct_UFunction_AZilly_SetItem1UI, "SetItem1UI" }, // 3777196585
+		{ &Z_Construct_UFunction_AZilly_SetItem2UI, "SetItem2UI" }, // 1804701198
+		{ &Z_Construct_UFunction_AZilly_SetItem3UI, "SetItem3UI" }, // 1888449645
+		{ &Z_Construct_UFunction_AZilly_SetItem4UI, "SetItem4UI" }, // 2895236947
+		{ &Z_Construct_UFunction_AZilly_SetItem5UI, "SetItem5UI" }, // 1485860060
+		{ &Z_Construct_UFunction_AZilly_SetItem6UI, "SetItem6UI" }, // 1562913744
+		{ &Z_Construct_UFunction_AZilly_SetItem7UI, "SetItem7UI" }, // 251180143
+		{ &Z_Construct_UFunction_AZilly_SetItem8UI, "SetItem8UI" }, // 575617380
+		{ &Z_Construct_UFunction_AZilly_SetItem9UI, "SetItem9UI" }, // 654629900
+		{ &Z_Construct_UFunction_AZilly_SetNearestItem, "SetNearestItem" }, // 2471178826
 		{ &Z_Construct_UFunction_AZilly_Sprint, "Sprint" }, // 2896034489
 		{ &Z_Construct_UFunction_AZilly_StartCrouch, "StartCrouch" }, // 1497858502
 		{ &Z_Construct_UFunction_AZilly_StopSprint, "StopSprint" }, // 1258924043
 		{ &Z_Construct_UFunction_AZilly_TurnAtRate, "TurnAtRate" }, // 2038128703
-		{ &Z_Construct_UFunction_AZilly_UseItem, "UseItem" }, // 1783223812
+		{ &Z_Construct_UFunction_AZilly_UpdateHighlightUI, "UpdateHighlightUI" }, // 726749837
+		{ &Z_Construct_UFunction_AZilly_UseItem, "UseItem" }, // 2646289615
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AZilly_Statics::Class_MetaDataParams[] = {
@@ -875,7 +1378,8 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_ItemIndex = { "ItemIndex", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AZilly, ItemIndex), METADATA_PARAMS(Z_Construct_UClass_AZilly_Statics::NewProp_ItemIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AZilly_Statics::NewProp_ItemIndex_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_Inner = { "Inventory", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_APickup_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_ValueProp = { "Inventory", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UClass_APickup_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_Key_KeyProp = { "Inventory_Key", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_MetaData[] = {
 		{ "ArrayClamp", "10" },
@@ -883,21 +1387,7 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		{ "ModuleRelativePath", "Public/Zilly.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_Inventory = { "Inventory", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AZilly, Inventory), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_InventoryMap_ValueProp = { "InventoryMap", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UClass_UFunction, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_InventoryMap_Key_KeyProp = { "InventoryMap_Key", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_APickup_NoRegister, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AZilly_Statics::NewProp_InventoryMap_MetaData[] = {
-		{ "ModuleRelativePath", "Public/Zilly.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_InventoryMap = { "InventoryMap", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AZilly, InventoryMap), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AZilly_Statics::NewProp_InventoryMap_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AZilly_Statics::NewProp_InventoryMap_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AZilly_Statics::NewProp_VarFunc_MetaData[] = {
-		{ "ModuleRelativePath", "Public/Zilly.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_VarFunc = { "VarFunc", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AZilly, VarFunc), Z_Construct_UClass_UFunction, METADATA_PARAMS(Z_Construct_UClass_AZilly_Statics::NewProp_VarFunc_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AZilly_Statics::NewProp_VarFunc_MetaData)) };
+	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AZilly_Statics::NewProp_Inventory = { "Inventory", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AZilly, Inventory), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AZilly_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_FollowCamera,
@@ -909,12 +1399,9 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_NearestItem,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_ItemIndex,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_ValueProp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_Inventory_Key_KeyProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_Inventory,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_InventoryMap_ValueProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_InventoryMap_Key_KeyProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_InventoryMap,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZilly_Statics::NewProp_VarFunc,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AZilly_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AZilly>::IsAbstract,
@@ -943,7 +1430,7 @@ void EmptyLinkFunctionForGeneratedCodeZilly() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AZilly, 833488602);
+	IMPLEMENT_CLASS(AZilly, 3909452311);
 	template<> TRIALS_API UClass* StaticClass<AZilly>()
 	{
 		return AZilly::StaticClass();

@@ -13,7 +13,8 @@ UENUM()
 enum EPuzzleSetUp
 {
 	NoSetup UMETA(DisplayName = "Tiles have no links"),
-	Adjacent UMETA(DisplayName = "Tiles linked to adjacent tiles"),
+	Adjacent UMETA(DisplayName = "Tiles linked to adjacent tiles not diagonly"),
+	AllAdjacent UMETA(DIsplayName = "Tiles linked to adjacent and diagonaly tiles")
 };
 
 UCLASS(Blueprintable, BlueprintType)
@@ -32,7 +33,7 @@ protected:
 	virtual void OnConstruction(const FTransform& Transform) override;
 	
 	virtual void Destroyed() override;
-	
+	virtual void PostEditUndo() override;
 
 public:	
 

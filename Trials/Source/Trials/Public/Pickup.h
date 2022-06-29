@@ -17,6 +17,9 @@ public:
 	// Sets default values for this actor's properties
 	APickup();
 
+	UPROPERTY()
+	int ItemIndex = -1;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	class USceneComponent* SceneComponent = nullptr;
 
@@ -26,8 +29,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	class UBoxComponent* ItemCollision = nullptr;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	class UTexture* Icon;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta = (AllowPrivateAccess="true"))
+	UTexture* Icon;
 	
 	UPROPERTY(EditAnywhere)
 	FString Name;
@@ -38,11 +41,13 @@ protected:
 
 public:	
 	
-	virtual void Pickup() override;
+	virtual void Pickup(const int InventoryIndex) override;
 
 	virtual void Use(FVector NewLocation) override;
 
-
+	UFUNCTION()
+	UTexture* GetIcon() const {return Icon;}
+	
 	UFUNCTION()
 	void OnBeginItemOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 

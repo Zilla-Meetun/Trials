@@ -10,5 +10,5 @@ void APickupWeight::Use(FVector NewLocation)
 	FHitResult Hit;
 	this->SetActorLocationAndRotation(NewLocation, FRotator::ZeroRotator);
 	ItemMesh->SetWorldLocationAndRotation(NewLocation, FRotator::ZeroRotator);
-
+	ItemIndex = -1;
 }

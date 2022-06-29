@@ -28,12 +28,13 @@ void APickup::BeginPlay()
 {
 	Super::BeginPlay();
 	ItemCollision->OnComponentBeginOverlap.AddDynamic(this, &APickup::OnBeginItemOverlap);
-	ItemCollision->OnComponentEndOverlap.AddDynamic(this, &APickup::APickup::OnEndItemOverlap);
+	ItemCollision->OnComponentEndOverlap.AddDynamic(this, &APickup::OnEndItemOverlap);
 }
 
-void APickup::Pickup()
+void APickup::Pickup(const int InventoryIndex)
 {
-	IInteract::Pickup();
+	IInteract::Pickup(InventoryIndex);
+	ItemIndex = InventoryIndex;
 	SetActorLocation(FVector(2870,-307,1881));
 	ItemMesh->SetWorldLocation(FVector(2870,-307,1881));
 	
@@ -46,12 +47,15 @@ void APickup::Use(FVector NewLocation)
 void APickup::OnBeginItemOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	
 	if(!OtherActor || OtherActor ==this)
 		return;
 	if(AZilly* Player = Cast<AZilly>(OtherActor))
 	{
-		Player->SetNearestItem(this);
+		Player->SetNearestItem(this, true);
+		UE_LOG(LogTemp, Warning, TEXT("Overlaping Player"))
 	}
+	
 }
 
 void APickup::OnEndItemOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
@@ -62,7 +66,7 @@ void APickup::OnEndItemOverlap(UPrimitiveComponent* OverlappedComp, AActor* Othe
 	
 	if(AZilly* Player = Cast<AZilly>(OtherActor))
 	{
-		Player->SetNearestItem(this);
+		Player->SetNearestItem(this, false);
 	}
 }
 

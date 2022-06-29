@@ -7,6 +7,7 @@
 #include "GameFramework/Character.h"
 #include "Components/BoxComponent.h"
 #include "Zilly.generated.h"
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FSetImageOne);
 
 UENUM(BlueprintType)
 enum class EAttackType : uint8
@@ -54,13 +55,46 @@ public:
 	int ItemIndex = 0;
 	
 	UPROPERTY(BlueprintReadWrite, meta = (ArrayClamp = "10"))
-	TArray<APickup*> Inventory;
+	TMap<int, APickup*> Inventory;
 
-	UPROPERTY()
-	TMap<APickup*, UFunction*> InventoryMap;
+	
+	typedef void (AZilly::*FSetItemUI)(const UTexture* Image);
+	FSetItemUI SetItemUI[10];
 
-	UPROPERTY()
-	UFunction* VarFunc;
+	UFUNCTION()
+	void UseItem();
+
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem1UI(const UTexture* Image);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem2UI(const UTexture* Image);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem3UI(const UTexture* Image);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem4UI(const UTexture* Image);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem5UI(const UTexture* Image);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem6UI(const UTexture* Image);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem7UI(const UTexture* Image);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem8UI(const UTexture* Image);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem9UI(const UTexture* Image);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetItem10UI(const UTexture* Image);
+	
 protected:
 
 	virtual void BeginPlay() override;
@@ -70,14 +104,15 @@ public:
 	UFUNCTION()
 	void AddToInventory();
 	
-	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
-	void PrintInventory();
 
 	UFUNCTION(BlueprintCallable)
-	void UseItem(const float Key);
+	void ChangeItem(const float Key);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void UpdateHighlightUI();
 
 	UFUNCTION()
-	void SetNearestItem(APickup* Item);
+	void SetNearestItem(APickup* Item, const bool bAdd);
 	
 	UFUNCTION()
 	void Sprint();

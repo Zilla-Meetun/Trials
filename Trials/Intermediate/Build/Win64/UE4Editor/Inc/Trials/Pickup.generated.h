@@ -11,6 +11,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPrimitiveComponent;
 class AActor;
 struct FHitResult;
+class UTexture;
 #ifdef TRIALS_Pickup_generated_h
 #error "Pickup.generated.h already included, missing '#pragma once' in Pickup.h"
 #endif
@@ -20,13 +21,15 @@ struct FHitResult;
 #define Trials_Source_Trials_Public_Pickup_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnEndItemOverlap); \
-	DECLARE_FUNCTION(execOnBeginItemOverlap);
+	DECLARE_FUNCTION(execOnBeginItemOverlap); \
+	DECLARE_FUNCTION(execGetIcon);
 
 
 #define Trials_Source_Trials_Public_Pickup_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnEndItemOverlap); \
-	DECLARE_FUNCTION(execOnBeginItemOverlap);
+	DECLARE_FUNCTION(execOnBeginItemOverlap); \
+	DECLARE_FUNCTION(execGetIcon);
 
 
 #define Trials_Source_Trials_Public_Pickup_h_14_INCLASS_NO_PURE_DECLS \
