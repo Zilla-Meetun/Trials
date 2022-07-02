@@ -43,8 +43,11 @@ public:
 	class USceneComponent* RootComp;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="State")
-	FIntVector Dimensions = FIntVector(2,2,0);
+	FIntVector Dimensions = FIntVector(2, 2, 0);
 
+	UPROPERTY()
+	FIntVector2 d;
+	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="State")
 	float TileSize = 100;
 	
