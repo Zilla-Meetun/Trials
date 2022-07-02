@@ -1,3 +1,0 @@
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Development\Trials\Definitions.Trials.h
-K:\Mastered\Trials\Trials\Source\Trials\Public\IPuzzleTrigger.h
-K:\Mastered\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\IPuzzleTrigger.generated.h
