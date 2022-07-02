@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\trials\\fencespline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\trialseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\unrealeditor\\development\\trials\\definitions.trials.h",
+            "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\source\\trials\\public\\fencespline.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\splinecomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\splinecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\splinemeshcomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\splinemeshcomponent.generated.h",
+            "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\trials\\fencespline.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

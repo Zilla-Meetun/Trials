@@ -6,7 +6,6 @@
 
 #include "TilePiece.h"
 #include "GameFramework/Actor.h"
-#include "PuzzleTrigger.h"
 #include "TilePuzzle.generated.h"
 
 UENUM()
@@ -33,8 +32,8 @@ protected:
 	virtual void OnConstruction(const FTransform& Transform) override;
 	
 	virtual void Destroyed() override;
-	virtual void PostEditUndo() override;
 
+	
 public:	
 
 	UFUNCTION()
@@ -44,12 +43,9 @@ public:
 	class USceneComponent* RootMesh;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="State")
-	int XLength = 1;
+	FIntVector Dimensions = FIntVector(2,2,0);
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="State")
-	int YLength = 1;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="State")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="State")
 	float TileSize = 100;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="State")
@@ -63,11 +59,17 @@ public:
 	
 	UPROPERTY(BlueprintReadOnly, Category="State")
 	bool bIsComplete = false;
-
+	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="State")
 	bool bIsUndoable = false;
 
-	UPROPERTY(BlueprintReadOnly, EditAnywhere,Category="Activation")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="State")
+	FLinearColor DefaultOnColour = FLinearColor(0, 0.6923f, 0.7718f, 1);
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="State")
+	FLinearColor DefaultOffColour = FLinearColor(1, 0.672f, 0.292f, 1);
+	
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly ,Category="Activation")
 	TArray<class AActor*> ActivationActors;
 
 	

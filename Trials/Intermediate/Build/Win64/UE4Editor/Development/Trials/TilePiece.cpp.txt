@@ -2,8 +2,6 @@ C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor
 C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials\Public\TilePiece.h
 C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePiece.generated.h
 C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials\Public\TilePuzzle.h
-C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials\Public\PuzzleTrigger.h
-C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\PuzzleTrigger.generated.h
 C:\Users\zilla\Documents\GitHub\Trials\Trials\Intermediate\Build\Win64\UE4Editor\Inc\Trials\TilePuzzle.generated.h
 C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials\Public\Zilly.h
 C:\Users\zilla\Documents\GitHub\Trials\Trials\Source\Trials\Public\Pickup.h

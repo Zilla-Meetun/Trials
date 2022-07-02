@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\source\\trials\\private\\puzzletrigger.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\trialseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\unrealeditor\\development\\trials\\definitions.trials.h",
+            "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\source\\trials\\public\\puzzletrigger.h",
+            "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\trials\\puzzletrigger.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

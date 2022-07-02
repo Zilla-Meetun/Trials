@@ -1,0 +1,14 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Source\\Trials\\Trials.Build.cs",
+		"C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfoDump\\RiderShaderInfoDump.Build.cs",
+		"C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Source\\Trials.Target.cs",
+		"C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Source\\TrialsEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.2"
+}

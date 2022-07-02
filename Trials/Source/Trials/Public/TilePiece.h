@@ -26,6 +26,9 @@ public:
 	void OnTileOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	UFUNCTION()
+	void SetBaseProperties();
+	
+	UFUNCTION()
 	void FlipTile();
 
 	UPROPERTY()
@@ -45,12 +48,6 @@ public:
 	
 	UPROPERTY(BlueprintReadOnly, Category="TileMaterial", meta = (AllowPrivateAccess = "true"))
 	UMaterialInstanceDynamic* DynamicMatInst = nullptr;
-
-	UPROPERTY(EditAnywhere, Category="State")
-	FLinearColor OnColour = FLinearColor(0, 0.6923f, 0.7718f, 1);
-
-	UPROPERTY(EditAnywhere, Category="State")
-	FLinearColor OffColour = FLinearColor(1, 0.672f, 0.292f, 1);
 	
 	UPROPERTY(EditAnywhere, Category="State", meta = (AllowPrivateAccess = "true"))
 	bool bIsOn = false;
@@ -59,10 +56,18 @@ public:
 	bool bFinished = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="State")
+	bool bOverrideParent = false;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="State", meta = (EditCondition = bOverrideParent))
 	bool bUndoable;
 
+	UPROPERTY(EditAnywhere, Category="State", meta = (EditCondition = bOverrideParent))
+	FLinearColor OnColour = FLinearColor(0, 0.6923f, 0.7718f, 1);
+
+	UPROPERTY(EditAnywhere, Category="State", meta = (EditCondition = bOverrideParent))
+	FLinearColor OffColour = FLinearColor(1, 0.672f, 0.292f, 1);
 	
-	UPROPERTY(EditAnywhere, Category="Debug",meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditAnywhere, Category="Debug", meta = (AllowPrivateAccess = "true"))
 	TArray<ATilePiece*> AdjacentTiles;
 
 private:

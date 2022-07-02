@@ -1,0 +1,35 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Trials.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\TrialsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\FenceSpline.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\Interact.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\Pickup.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\PickupWeight.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\PressurePlate.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\PunchStartNotify.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\PuzzleTrigger.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\TilePiece.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\TilePuzzle.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\Zilly.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\Trials.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\TrialsGameModeBase.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\FenceSpline.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\Interact.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\Pickup.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\PickupWeight.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\PressurePlate.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\PunchStartNotify.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\PuzzleTrigger.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\TilePiece.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\TilePuzzle.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\Trials.init.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\TrialsGameModeBase.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\Zilly.gen.cpp.obj"
+"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\Default.rc2.res"
+/OUT:"C:\Users\zilla\Documents\GitHub\Trials\Trials 5.0\Intermediate\Build\Win64\UnrealEditor\Development\Trials\UnrealEditor-Trials.lib"

@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\trials\\trials.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\trialseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\zilla\\documents\\github\\trials\\trials 5.0\\intermediate\\build\\win64\\unrealeditor\\development\\trials\\definitions.trials.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

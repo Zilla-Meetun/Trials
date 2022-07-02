@@ -42,6 +42,13 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 		P_THIS->FlipTile();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ATilePiece::execSetBaseProperties)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetBaseProperties();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATilePiece::execOnTileOverlap)
 	{
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp);
@@ -62,6 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 			{ "FlipTile", &ATilePiece::execFlipTile },
 			{ "OnTileOverlap", &ATilePiece::execOnTileOverlap },
 			{ "ResetDo", &ATilePiece::execResetDo },
+			{ "SetBaseProperties", &ATilePiece::execSetBaseProperties },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -191,6 +199,28 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATilePiece_SetBaseProperties_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATilePiece_SetBaseProperties_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/TilePiece.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATilePiece_SetBaseProperties_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATilePiece, nullptr, "SetBaseProperties", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATilePiece_SetBaseProperties_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATilePiece_SetBaseProperties_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATilePiece_SetBaseProperties()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATilePiece_SetBaseProperties_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ATilePiece_NoRegister()
 	{
 		return ATilePiece::StaticClass();
@@ -227,14 +257,6 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DynamicMatInst;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnColour_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_OnColour;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OffColour_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_OffColour;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsOn_MetaData[];
 #endif
 		static void NewProp_bIsOn_SetBit(void* Obj);
@@ -245,10 +267,23 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 		static void NewProp_bFinished_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bFinished;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bOverrideParent_MetaData[];
+#endif
+		static void NewProp_bOverrideParent_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bOverrideParent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bUndoable_MetaData[];
 #endif
 		static void NewProp_bUndoable_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUndoable;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnColour_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_OnColour;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OffColour_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_OffColour;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AdjacentTiles_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AdjacentTiles_MetaData[];
@@ -271,6 +306,7 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 		{ &Z_Construct_UFunction_ATilePiece_FlipTile, "FlipTile" }, // 2350020617
 		{ &Z_Construct_UFunction_ATilePiece_OnTileOverlap, "OnTileOverlap" }, // 4078011126
 		{ &Z_Construct_UFunction_ATilePiece_ResetDo, "ResetDo" }, // 2696450120
+		{ &Z_Construct_UFunction_ATilePiece_SetBaseProperties, "SetBaseProperties" }, // 2581069518
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePiece_Statics::Class_MetaDataParams[] = {
@@ -329,20 +365,6 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATilePiece_Statics::NewProp_DynamicMatInst = { "DynamicMatInst", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATilePiece, DynamicMatInst), Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATilePiece_Statics::NewProp_DynamicMatInst_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::NewProp_DynamicMatInst_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour_MetaData[] = {
-		{ "Category", "State" },
-		{ "ModuleRelativePath", "Public/TilePiece.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour = { "OnColour", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATilePiece, OnColour), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour_MetaData[] = {
-		{ "Category", "State" },
-		{ "ModuleRelativePath", "Public/TilePiece.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour = { "OffColour", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATilePiece, OffColour), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePiece_Statics::NewProp_bIsOn_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "State" },
@@ -367,8 +389,20 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATilePiece_Statics::NewProp_bFinished = { "bFinished", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATilePiece), &Z_Construct_UClass_ATilePiece_Statics::NewProp_bFinished_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATilePiece_Statics::NewProp_bFinished_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::NewProp_bFinished_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePiece_Statics::NewProp_bOverrideParent_MetaData[] = {
+		{ "Category", "State" },
+		{ "ModuleRelativePath", "Public/TilePiece.h" },
+	};
+#endif
+	void Z_Construct_UClass_ATilePiece_Statics::NewProp_bOverrideParent_SetBit(void* Obj)
+	{
+		((ATilePiece*)Obj)->bOverrideParent = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATilePiece_Statics::NewProp_bOverrideParent = { "bOverrideParent", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATilePiece), &Z_Construct_UClass_ATilePiece_Statics::NewProp_bOverrideParent_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATilePiece_Statics::NewProp_bOverrideParent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::NewProp_bOverrideParent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePiece_Statics::NewProp_bUndoable_MetaData[] = {
 		{ "Category", "State" },
+		{ "EditCondition", "bOverrideParent" },
 		{ "ModuleRelativePath", "Public/TilePiece.h" },
 	};
 #endif
@@ -377,6 +411,22 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 		((ATilePiece*)Obj)->bUndoable = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATilePiece_Statics::NewProp_bUndoable = { "bUndoable", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATilePiece), &Z_Construct_UClass_ATilePiece_Statics::NewProp_bUndoable_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATilePiece_Statics::NewProp_bUndoable_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::NewProp_bUndoable_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour_MetaData[] = {
+		{ "Category", "State" },
+		{ "EditCondition", "bOverrideParent" },
+		{ "ModuleRelativePath", "Public/TilePiece.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour = { "OnColour", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATilePiece, OnColour), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour_MetaData[] = {
+		{ "Category", "State" },
+		{ "EditCondition", "bOverrideParent" },
+		{ "ModuleRelativePath", "Public/TilePiece.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour = { "OffColour", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATilePiece, OffColour), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATilePiece_Statics::NewProp_AdjacentTiles_Inner = { "AdjacentTiles", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ATilePiece_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATilePiece_Statics::NewProp_AdjacentTiles_MetaData[] = {
@@ -403,11 +453,12 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_TileCollision,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_MatInst,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_DynamicMatInst,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_bIsOn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_bFinished,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_bOverrideParent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_bUndoable,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_OnColour,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_OffColour,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_AdjacentTiles_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_AdjacentTiles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATilePiece_Statics::NewProp_DoneOnce,
@@ -439,7 +490,7 @@ void EmptyLinkFunctionForGeneratedCodeTilePiece() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATilePiece, 3832674728);
+	IMPLEMENT_CLASS(ATilePiece, 899953968);
 	template<> TRIALS_API UClass* StaticClass<ATilePiece>()
 	{
 		return ATilePiece::StaticClass();

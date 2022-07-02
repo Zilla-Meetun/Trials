@@ -30,23 +30,23 @@ void ATilePuzzle::BeginPlay()
 			case NoSetup:
 				continue;
 			case AllAdjacent:
-				if(Grid.IsValidIndex(i-1-YLength) && i%YLength != 0)
-					Grid[i]->AdjacentTiles.Add(Grid[i-1-YLength]);
-				if(Grid.IsValidIndex(i+1-YLength) && i%YLength != YLength-1)
-					Grid[i]->AdjacentTiles.Add(Grid[i+1-YLength]);
-				if(Grid.IsValidIndex(i-1+YLength)&& i%YLength != 0)
-					Grid[i]->AdjacentTiles.Add(Grid[i-1+YLength]);
-				if(Grid.IsValidIndex(i+1+YLength) && i%YLength != YLength-1)
-					Grid[i]->AdjacentTiles.Add(Grid[i+1+YLength]);
+				if(Grid.IsValidIndex(i-1-Dimensions.Y) && i%(Dimensions.Y) != 0)
+					Grid[i]->AdjacentTiles.Add(Grid[i-1-(Dimensions.Y)]);
+				if(Grid.IsValidIndex(i+1-Dimensions.Y) && i%(Dimensions.Y) != (Dimensions.Y)-1)
+					Grid[i]->AdjacentTiles.Add(Grid[i+1-(Dimensions.Y)]);
+				if(Grid.IsValidIndex(i-1+static_cast<int>(Dimensions.Y))&& i%(Dimensions.Y) != 0)
+					Grid[i]->AdjacentTiles.Add(Grid[i-1+(Dimensions.Y)]);
+				if(Grid.IsValidIndex(i+1+(Dimensions.Y)) && i%(Dimensions.Y) != (Dimensions.Y)-1)
+					Grid[i]->AdjacentTiles.Add(Grid[i+1+(Dimensions.Y)]);
 			case Adjacent:
-				if(Grid.IsValidIndex(i-1) && i%YLength != 0)
+				if(Grid.IsValidIndex(i-1) && i%(Dimensions.Y) != 0)
 					Grid[i]->AdjacentTiles.Add(Grid[i-1]);
-				if(Grid.IsValidIndex(i+1) && i%YLength != YLength-1)
+				if(Grid.IsValidIndex(i+1) && i%(Dimensions.Y) != (Dimensions.Y)-1)
 					Grid[i]->AdjacentTiles.Add(Grid[i+1]);
-				if(Grid.IsValidIndex(i-YLength))
-					Grid[i]->AdjacentTiles.Add(Grid[i-YLength]);
-				if(Grid.IsValidIndex(i+YLength))
-					Grid[i]->AdjacentTiles.Add(Grid[i+YLength]);
+				if(Grid.IsValidIndex(i-(Dimensions.Y)))
+					Grid[i]->AdjacentTiles.Add(Grid[i-(Dimensions.Y)]);
+				if(Grid.IsValidIndex(i+static_cast<int>(Dimensions.Y)))
+					Grid[i]->AdjacentTiles.Add(Grid[i+(Dimensions.Y)]);
 			default:
 				UE_LOG(LogTemp, Warning, TEXT("Added Tile Links"))
 		}
@@ -58,7 +58,7 @@ void ATilePuzzle::OnConstruction(const FTransform& Transform)
 {
 	Super::OnConstruction(Transform);
 
-	const FString BaseName = "TilePiece";
+	//const FString BaseName = "TilePiece";
 	for(ATilePiece* Tile : Grid)
 	{
 		if(!Tile)
@@ -74,23 +74,24 @@ void ATilePuzzle::OnConstruction(const FTransform& Transform)
 	
 	RegisterAllComponents();
 	
-	for(int x = 0 ; x < XLength ; x++)
-		for(int y = 0 ; y < YLength ; y++)
-		{
-			
-			FString Name =  BaseName + FString::FromInt(y+(x*XLength));
-			ATilePiece* Piece =  NewObject<ATilePiece>(this,ATilePiece::StaticClass());//, *Name);
-			
-			Piece->RegisterAllComponents();
-			Piece->AttachToActor(this, FAttachmentTransformRules::KeepWorldTransform, NAME_None);
-			Piece->SetActorLocationAndRotation(this->GetActorLocation()+FVector((x * (TileSize * GetActorScale().X +
-			Spacing)) ,(y * (TileSize * GetActorScale().Y +Spacing)),0.0f), this->GetActorRotation());
-			Piece->SetActorScale3D(this->GetActorScale());
-			Piece->TileMesh->SetRelativeScale3D(FVector(1.0f, 1.0f, 0.1f));
-			Piece->TileMesh->AttachToComponent(RootMesh, FAttachmentTransformRules::KeepWorldTransform);
-			Piece->TileCollision->AttachToComponent(Piece->TileMesh, FAttachmentTransformRules::KeepWorldTransform);
-			Grid.Add(Piece);
-		}
+	for(int x = 0 ; x < (Dimensions.X) ; x++)
+		for(int y = 0 ; y < (Dimensions.Y) ; y++)
+			for(int z = 0 ; z < Dimensions.Z ; z++)
+			{
+				
+				//FString Name =  BaseName + FString::FromInt(y+(x*Dimensions.Y));
+				ATilePiece* Piece =  NewObject<ATilePiece>(this,ATilePiece::StaticClass());//, *Name);
+				
+				Piece->RegisterAllComponents();
+				Piece->AttachToActor(this, FAttachmentTransformRules::KeepWorldTransform, NAME_None);
+				Piece->SetActorLocationAndRotation(this->GetActorLocation()+FVector((x * (TileSize * GetActorScale().X +
+				Spacing)) ,(y * (TileSize * GetActorScale().Y +Spacing)),0.0f), this->GetActorRotation());
+				Piece->SetActorScale3D(this->GetActorScale());
+				Piece->TileMesh->SetRelativeScale3D(FVector(1.0f, 1.0f, 0.1f));
+				Piece->TileMesh->AttachToComponent(RootMesh, FAttachmentTransformRules::KeepWorldTransform);
+				Piece->TileCollision->AttachToComponent(Piece->TileMesh, FAttachmentTransformRules::KeepWorldTransform);
+				Grid.Add(Piece);
+			}
 }
 
 void ATilePuzzle::Destroyed()
@@ -110,12 +111,7 @@ void ATilePuzzle::Destroyed()
 	Grid.Empty();
 }
 
-void ATilePuzzle::PostEditUndo()
-{
-	Super::PostEditUndo();
 
-	
-}
 
 void ATilePuzzle::CheckPuzzleState()
 {

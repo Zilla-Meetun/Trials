@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Trials",
+			"Path": "C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Source\\Trials.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TrialsEditor",
+			"Path": "C:\\Users\\zilla\\Documents\\GitHub\\Trials\\Trials 5.0\\Source\\TrialsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -21,6 +21,7 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execResetDo); \
 	DECLARE_FUNCTION(execFlipTile); \
+	DECLARE_FUNCTION(execSetBaseProperties); \
 	DECLARE_FUNCTION(execOnTileOverlap);
 
 
@@ -28,6 +29,7 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execResetDo); \
 	DECLARE_FUNCTION(execFlipTile); \
+	DECLARE_FUNCTION(execSetBaseProperties); \
 	DECLARE_FUNCTION(execOnTileOverlap);
 
 
